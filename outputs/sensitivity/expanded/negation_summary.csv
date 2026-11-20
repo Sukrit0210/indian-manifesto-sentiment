@@ -1,0 +1,13 @@
+﻿method,case_type,expected_direction,cases,correct_direction,unchanged,flips
+lexicon,direct_source_edit,all,3,0,3,0
+lexicon,direct_source_edit,less_positive,2,0,2,0
+lexicon,direct_source_edit,more_positive,1,0,1,0
+lexicon,constructed_clause_with_source_context,all,102,0,102,0
+lexicon,constructed_clause_with_source_context,less_positive,60,0,60,0
+lexicon,constructed_clause_with_source_context,more_positive,42,0,42,0
+roberta,direct_source_edit,all,3,3,0,1
+roberta,direct_source_edit,less_positive,2,2,0,0
+roberta,direct_source_edit,more_positive,1,1,0,1
+roberta,constructed_clause_with_source_context,all,102,102,0,86
+roberta,constructed_clause_with_source_context,less_positive,60,60,0,52
+roberta,constructed_clause_with_source_context,more_positive,42,42,0,34

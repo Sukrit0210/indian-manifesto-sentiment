@@ -1,0 +1,13 @@
+﻿method,label,passages
+lexicon,negative,43
+lexicon,neutral,754
+lexicon,positive,253
+roberta,negative,93
+roberta,neutral,698
+roberta,positive,259
+bart,negative,386
+bart,neutral,20
+bart,positive,644
+bart_neutral_explicit,negative,71
+bart_neutral_explicit,neutral,887
+bart_neutral_explicit,positive,92

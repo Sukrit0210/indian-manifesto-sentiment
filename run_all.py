@@ -45,6 +45,7 @@ STEPS = [
     "04_analyze.py",
     "05_plot.py",
     "06_audit_sensitivity.py",
+    "07_expanded_audit.py",
 ]
 
 
@@ -53,7 +54,7 @@ def main():
     parser.add_argument("--pdf-dir", type=Path, help="Directory containing the registered PDFs")
     parser.add_argument(
         "--third-model", action=argparse.BooleanOptionalAction, default=True,
-        help="Run the sampled BART tone comparison in stage 6 (enabled by default)",
+        help="Run the expanded BART prompt comparison in stage 7 (enabled by default)",
     )
     parser.add_argument("--start", type=int, default=1, choices=range(1, len(STEPS) + 1))
     parser.add_argument("--stop", type=int, default=len(STEPS), choices=range(1, len(STEPS) + 1))
@@ -66,8 +67,8 @@ def main():
         command = [python, str(ROOT / "src" / script)]
         if number == 1 and args.pdf_dir:
             command += ["--pdf-dir", str(args.pdf_dir.resolve())]
-        if number == 6 and args.third_model:
-            command.append("--third-model")
+        if script == "07_expanded_audit.py" and not args.third_model:
+            command.append("--no-third-model")
         print(f"Running {script}", flush=True)
         subprocess.run(command, cwd=ROOT, check=True)
 

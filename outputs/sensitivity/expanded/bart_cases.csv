@@ -1,0 +1,1051 @@
+﻿document_id,passage_id,party,year,dominant_topic,cue_group,lexicon,roberta,bart,bart_neutral_explicit
+AIADMK-2009,AIADMK-2009-p020-g006,AIADMK,2009,104 - Military: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p020-g003,AIADMK,2009,106 - Peace,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p022-g002,AIADMK,2009,107 - Internationalism: Positive,none,negative,positive,positive,neutral
+AIADMK-2009,AIADMK-2009-p021-g006,AIADMK,2009,109 - Internationalism: Negative,negation_cue,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p017-g006,AIADMK,2009,301 - Federalism,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p018-g010,AIADMK,2009,303 - Governmental and Administrative Efficiency,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p007-g002,AIADMK,2009,304 - Political Corruption,none,neutral,negative,negative,negative
+AIADMK-2009,AIADMK-2009-p008-g005,AIADMK,2009,305 - Political Authority,negation_cue,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p010-g005,AIADMK,2009,305 - Political Authority,none,neutral,neutral,positive,positive
+AIADMK-2009,AIADMK-2009-p009-g002,AIADMK,2009,305 - Political Authority,none,neutral,positive,positive,neutral
+AIADMK-2009,AIADMK-2009-p019-g001,AIADMK,2009,305 - Political Authority,none,neutral,negative,negative,neutral
+AIADMK-2009,AIADMK-2009-p036-g006,AIADMK,2009,305 - Political Authority,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p022-g007,AIADMK,2009,305 - Political Authority,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p036-g002,AIADMK,2009,305 - Political Authority,none,neutral,negative,negative,negative
+AIADMK-2009,AIADMK-2009-p017-g009,AIADMK,2009,402 - Incentives,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p017-g012,AIADMK,2009,403 - Market Regulation,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p006-g003,AIADMK,2009,410 - Economic Growth: Positive,none,positive,negative,negative,negative
+AIADMK-2009,AIADMK-2009-p013-g001,AIADMK,2009,411 - Technology and Infrastructure,negation_cue,positive,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p018-g004,AIADMK,2009,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p025-g010,AIADMK,2009,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p023-g001,AIADMK,2009,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p010-g007,AIADMK,2009,414 - Economic Orthodoxy,none,neutral,negative,negative,negative
+AIADMK-2009,AIADMK-2009-p025-g002,AIADMK,2009,501 - Environmental Protection: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p040-g001,AIADMK,2009,501 - Environmental Protection: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p027-g003,AIADMK,2009,502 - Culture: Positive,none,positive,positive,positive,neutral
+AIADMK-2009,AIADMK-2009-p033-g001,AIADMK,2009,503 - Equality: Positive,negation_cue,neutral,positive,positive,neutral
+AIADMK-2009,AIADMK-2009-p039-g001,AIADMK,2009,503 - Equality: Positive,none,positive,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p037-g008,AIADMK,2009,503 - Equality: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p030-g001,AIADMK,2009,504 - Welfare State Expansion,none,positive,positive,positive,neutral
+AIADMK-2009,AIADMK-2009-p017-g003,AIADMK,2009,504 - Welfare State Expansion,none,negative,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p018-g006,AIADMK,2009,504 - Welfare State Expansion,none,negative,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p028-g003,AIADMK,2009,506 - Education Expansion,none,neutral,neutral,positive,positive
+AIADMK-2009,AIADMK-2009-p036-g004,AIADMK,2009,601 - National Way of Life: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p030-g005,AIADMK,2009,603 - Traditional Morality: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p014-g001,AIADMK,2009,605 - Law and Order: Positive,negation_cue,neutral,negative,negative,neutral
+AIADMK-2009,AIADMK-2009-p033-g006,AIADMK,2009,605 - Law and Order: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p036-g007,AIADMK,2009,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p029-g002,AIADMK,2009,607 - Multiculturalism: Positive,negation_cue,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p028-g008,AIADMK,2009,607 - Multiculturalism: Positive,none,neutral,positive,positive,positive
+AIADMK-2009,AIADMK-2009-p030-g007,AIADMK,2009,607 - Multiculturalism: Positive,none,positive,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p028-g006,AIADMK,2009,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p015-g005,AIADMK,2009,701 - Labour Groups: Positive,none,negative,negative,positive,neutral
+AIADMK-2009,AIADMK-2009-p007-g003,AIADMK,2009,703 - Agriculture and Farmers: Positive,negation_cue,neutral,negative,negative,negative
+AIADMK-2009,AIADMK-2009-p037-g009,AIADMK,2009,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p039-g003,AIADMK,2009,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p024-g003,AIADMK,2009,703 - Agriculture and Farmers: Positive,none,neutral,negative,negative,negative
+AIADMK-2009,AIADMK-2009-p026-g008,AIADMK,2009,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2009,AIADMK-2009-p025-g008,AIADMK,2009,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p024-g007,AIADMK,2009,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2009,AIADMK-2009-p032-g007,AIADMK,2009,706 - Non-economic Demographic Groups,none,positive,positive,positive,neutral
+AIADMK-2014,AIADMK-2014-p059-g001,AIADMK,2014,301 - Federalism,negation_cue,positive,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p084-g003,AIADMK,2014,301 - Federalism,none,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p086-g001,AIADMK,2014,301 - Federalism,none,neutral,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p084-g002,AIADMK,2014,301 - Federalism,none,neutral,negative,negative,negative
+AIADMK-2014,AIADMK-2014-p072-g002,AIADMK,2014,303 - Governmental and Administrative Efficiency,negation_cue,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p110-g003,AIADMK,2014,303 - Governmental and Administrative Efficiency,none,neutral,positive,positive,positive
+AIADMK-2014,AIADMK-2014-p105-g003,AIADMK,2014,304 - Political Corruption,none,negative,negative,negative,neutral
+AIADMK-2014,AIADMK-2014-p023-g004,AIADMK,2014,305 - Political Authority,negation_cue,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p108-g001,AIADMK,2014,305 - Political Authority,none,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p023-g003,AIADMK,2014,305 - Political Authority,none,neutral,negative,negative,neutral
+AIADMK-2014,AIADMK-2014-p103-g001,AIADMK,2014,305 - Political Authority,none,neutral,neutral,positive,positive
+AIADMK-2014,AIADMK-2014-p092-g002,AIADMK,2014,401 - Free Market Economy,none,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p073-g001,AIADMK,2014,402 - Incentives,none,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p091-g001,AIADMK,2014,403 - Market Regulation,none,neutral,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p065-g001,AIADMK,2014,406 - Protectionism: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p101-g002,AIADMK,2014,410 - Economic Growth: Positive,none,neutral,positive,positive,neutral
+AIADMK-2014,AIADMK-2014-p089-g003,AIADMK,2014,410 - Economic Growth: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p101-g003,AIADMK,2014,410 - Economic Growth: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p038-g002,AIADMK,2014,411 - Technology and Infrastructure,negation_cue,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p098-g001,AIADMK,2014,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+AIADMK-2014,AIADMK-2014-p037-g001,AIADMK,2014,411 - Technology and Infrastructure,none,positive,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p056-g001,AIADMK,2014,413 - Nationalisation,negation_cue,positive,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p053-g002,AIADMK,2014,413 - Nationalisation,none,neutral,neutral,positive,positive
+AIADMK-2014,AIADMK-2014-p088-g002,AIADMK,2014,414 - Economic Orthodoxy,negation_cue,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p063-g001,AIADMK,2014,414 - Economic Orthodoxy,none,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p005-g002,AIADMK,2014,503 - Equality: Positive,none,neutral,positive,positive,positive
+AIADMK-2014,AIADMK-2014-p053-g001,AIADMK,2014,503 - Equality: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p022-g002,AIADMK,2014,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p024-g004,AIADMK,2014,503 - Equality: Positive,none,positive,negative,negative,negative
+AIADMK-2014,AIADMK-2014-p070-g003,AIADMK,2014,504 - Welfare State Expansion,negation_cue,neutral,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p049-g001,AIADMK,2014,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p071-g001,AIADMK,2014,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p015-g003,AIADMK,2014,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p015-g002,AIADMK,2014,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p048-g001,AIADMK,2014,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p069-g001,AIADMK,2014,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p087-g001,AIADMK,2014,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p012-g003,AIADMK,2014,506 - Education Expansion,none,neutral,positive,positive,positive
+AIADMK-2014,AIADMK-2014-p011-g002,AIADMK,2014,506 - Education Expansion,none,neutral,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p007-g002,AIADMK,2014,506 - Education Expansion,none,neutral,neutral,negative,negative
+AIADMK-2014,AIADMK-2014-p109-g001,AIADMK,2014,601 - National Way of Life: Positive,none,positive,positive,positive,positive
+AIADMK-2014,AIADMK-2014-p046-g001,AIADMK,2014,601 - National Way of Life: Positive,none,neutral,positive,positive,neutral
+AIADMK-2014,AIADMK-2014-p034-g002,AIADMK,2014,607 - Multiculturalism: Positive,negation_cue,neutral,positive,positive,positive
+AIADMK-2014,AIADMK-2014-p069-g002,AIADMK,2014,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p041-g002,AIADMK,2014,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2014,AIADMK-2014-p032-g002,AIADMK,2014,703 - Agriculture and Farmers: Positive,negation_cue,positive,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p041-g001,AIADMK,2014,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2014,AIADMK-2014-p089-g004,AIADMK,2014,703 - Agriculture and Farmers: Positive,none,neutral,neutral,neutral,neutral
+AIADMK-2014,AIADMK-2014-p030-g002,AIADMK,2014,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+AIADMK-2014,AIADMK-2014-p049-g002,AIADMK,2014,706 - Non-economic Demographic Groups,none,positive,positive,positive,neutral
+AIADMK-2019,AIADMK-2019-p056-b026-i001,AIADMK,2019,107 - Internationalism: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p057-b005-i001,AIADMK,2019,301 - Federalism,none,neutral,neutral,positive,positive
+AIADMK-2019,AIADMK-2019-p062-b022-i001,AIADMK,2019,301 - Federalism,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p062-b019-i001,AIADMK,2019,301 - Federalism,none,neutral,negative,negative,negative
+AIADMK-2019,AIADMK-2019-p088-b007-i001,AIADMK,2019,303 - Governmental and Administrative Efficiency,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p019-b005-i001,AIADMK,2019,303 - Governmental and Administrative Efficiency,none,neutral,neutral,positive,positive
+AIADMK-2019,AIADMK-2019-p014-b016-i001,AIADMK,2019,305 - Political Authority,none,neutral,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p024-b008-i001,AIADMK,2019,305 - Political Authority,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p086-b018-i001,AIADMK,2019,305 - Political Authority,none,neutral,positive,neutral,neutral
+AIADMK-2019,AIADMK-2019-p053-b007-i001,AIADMK,2019,402 - Incentives,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p088-b014-i001,AIADMK,2019,403 - Market Regulation,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p043-b009-i001,AIADMK,2019,406 - Protectionism: Positive,none,negative,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p041-b005-i001,AIADMK,2019,410 - Economic Growth: Positive,none,neutral,negative,negative,neutral
+AIADMK-2019,AIADMK-2019-p064-b011-i001,AIADMK,2019,411 - Technology and Infrastructure,negation_cue,neutral,negative,negative,negative
+AIADMK-2019,AIADMK-2019-p075-b018-i001,AIADMK,2019,411 - Technology and Infrastructure,none,positive,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p075-b020-i001,AIADMK,2019,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p018-b016-i001,AIADMK,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p074-b009-i001,AIADMK,2019,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p073-b007-i001,AIADMK,2019,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p018-b025-i001,AIADMK,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,positive
+AIADMK-2019,AIADMK-2019-p036-b021-i001,AIADMK,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p065-b008-i001,AIADMK,2019,413 - Nationalisation,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p082-b013-i001,AIADMK,2019,416 - Anti-Growth Economy: Positive,none,positive,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p064-b022-i001,AIADMK,2019,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p078-b005-i001,AIADMK,2019,501 - Environmental Protection: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p017-b006-i001,AIADMK,2019,501 - Environmental Protection: Positive,none,negative,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p069-b015-i001,AIADMK,2019,501 - Environmental Protection: Positive,none,neutral,negative,negative,neutral
+AIADMK-2019,AIADMK-2019-p051-b014-i001,AIADMK,2019,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p025-b008-i001,AIADMK,2019,502 - Culture: Positive,none,neutral,neutral,positive,positive
+AIADMK-2019,AIADMK-2019-p064-b006-i001,AIADMK,2019,503 - Equality: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p040-b023-i001,AIADMK,2019,503 - Equality: Positive,none,negative,negative,negative,negative
+AIADMK-2019,AIADMK-2019-p027-b010-i001,AIADMK,2019,504 - Welfare State Expansion,negation_cue,negative,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p022-b011-i001,AIADMK,2019,504 - Welfare State Expansion,none,neutral,positive,positive,positive
+AIADMK-2019,AIADMK-2019-p016-b025-i001,AIADMK,2019,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p048-b006-i001,AIADMK,2019,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p023-b010-i001,AIADMK,2019,506 - Education Expansion,none,neutral,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p055-b024-i001,AIADMK,2019,506 - Education Expansion,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p017-b014-i002,AIADMK,2019,605 - Law and Order: Positive,none,neutral,positive,positive,positive
+AIADMK-2019,AIADMK-2019-p006-b020-i001,AIADMK,2019,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p060-b023-i001,AIADMK,2019,607 - Multiculturalism: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p086-b007-i001,AIADMK,2019,607 - Multiculturalism: Positive,none,neutral,positive,positive,neutral
+AIADMK-2019,AIADMK-2019-p053-b027-i001,AIADMK,2019,701 - Labour Groups: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p079-b012-i001,AIADMK,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p051-b008-i001,AIADMK,2019,703 - Agriculture and Farmers: Positive,none,positive,neutral,negative,neutral
+AIADMK-2019,AIADMK-2019-p015-b026-i001,AIADMK,2019,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+AIADMK-2019,AIADMK-2019-p015-b018-i001,AIADMK,2019,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+AIADMK-2019,AIADMK-2019-p015-b007-i001,AIADMK,2019,703 - Agriculture and Farmers: Positive,none,positive,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p081-b015-i001,AIADMK,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p050-b014-i001,AIADMK,2019,703 - Agriculture and Farmers: Positive,none,positive,neutral,positive,neutral
+AIADMK-2019,AIADMK-2019-p052-b005-i001,AIADMK,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p013-b009-i001,BJP,2009,101 - Foreign Special Relationships: Positive,none,neutral,positive,positive,neutral
+BJP-2009,BJP-2009-p015-b006-i002,BJP,2009,104 - Military: Positive,none,positive,positive,positive,neutral
+BJP-2009,BJP-2009-p016-b010-i002,BJP,2009,104 - Military: Positive,none,neutral,positive,negative,neutral
+BJP-2009,BJP-2009-p014-b001-i001,BJP,2009,107 - Internationalism: Positive,none,neutral,positive,positive,neutral
+BJP-2009,BJP-2009-p044-b011-i002,BJP,2009,301 - Federalism,none,positive,positive,positive,neutral
+BJP-2009,BJP-2009-p038-b006-i002,BJP,2009,303 - Governmental and Administrative Efficiency,none,neutral,neutral,neutral,neutral
+BJP-2009,BJP-2009-p013-b006-i001,BJP,2009,305 - Political Authority,negation_cue,positive,positive,positive,neutral
+BJP-2009,BJP-2009-p015-b008-i002,BJP,2009,305 - Political Authority,none,neutral,positive,negative,neutral
+BJP-2009,BJP-2009-p007-b010-i001,BJP,2009,305 - Political Authority,none,neutral,negative,negative,negative
+BJP-2009,BJP-2009-p019-b008-i002,BJP,2009,402 - Incentives,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p020-b004-i002,BJP,2009,403 - Market Regulation,none,positive,neutral,negative,neutral
+BJP-2009,BJP-2009-p003-b005-i001,BJP,2009,410 - Economic Growth: Positive,none,negative,negative,negative,neutral
+BJP-2009,BJP-2009-p031-b002-i001,BJP,2009,411 - Technology and Infrastructure,negation_cue,positive,positive,positive,positive
+BJP-2009,BJP-2009-p019-b012-i002,BJP,2009,411 - Technology and Infrastructure,none,negative,negative,negative,neutral
+BJP-2009,BJP-2009-p028-b002-i002,BJP,2009,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+BJP-2009,BJP-2009-p030-b002-i002,BJP,2009,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p028-b001-i002,BJP,2009,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p029-b005-i001,BJP,2009,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+BJP-2009,BJP-2009-p018-b011-i001,BJP,2009,416 - Anti-Growth Economy: Positive,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p043-b007-i002,BJP,2009,501 - Environmental Protection: Positive,none,negative,positive,positive,neutral
+BJP-2009,BJP-2009-p018-b008-i001,BJP,2009,501 - Environmental Protection: Positive,none,neutral,negative,negative,neutral
+BJP-2009,BJP-2009-p032-b011-i002,BJP,2009,502 - Culture: Positive,none,positive,positive,positive,neutral
+BJP-2009,BJP-2009-p033-b004-i002,BJP,2009,502 - Culture: Positive,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p008-b004-i001,BJP,2009,503 - Equality: Positive,none,negative,negative,negative,negative
+BJP-2009,BJP-2009-p035-b007-i001,BJP,2009,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p019-b010-i002,BJP,2009,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p036-b008-i001,BJP,2009,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p041-b011-i002,BJP,2009,504 - Welfare State Expansion,none,neutral,positive,positive,neutral
+BJP-2009,BJP-2009-p030-b006-i001,BJP,2009,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p031-b010-i002,BJP,2009,506 - Education Expansion,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p037-b005-i002,BJP,2009,506 - Education Expansion,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p027-b005-i001,BJP,2009,506 - Education Expansion,none,positive,neutral,positive,neutral
+BJP-2009,BJP-2009-p011-b001-i001,BJP,2009,601 - National Way of Life: Positive,negation_cue,positive,negative,negative,negative
+BJP-2009,BJP-2009-p011-b006-i002,BJP,2009,601 - National Way of Life: Positive,none,neutral,negative,negative,neutral
+BJP-2009,BJP-2009-p014-b004-i001,BJP,2009,605 - Law and Order: Positive,negation_cue,neutral,negative,negative,neutral
+BJP-2009,BJP-2009-p013-b002-i001,BJP,2009,605 - Law and Order: Positive,none,positive,neutral,positive,neutral
+BJP-2009,BJP-2009-p011-b002-i001,BJP,2009,605 - Law and Order: Positive,none,neutral,negative,negative,negative
+BJP-2009,BJP-2009-p005-b002-i001,BJP,2009,607 - Multiculturalism: Positive,negation_cue,positive,positive,positive,positive
+BJP-2009,BJP-2009-p044-b008-i001,BJP,2009,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p002-b006-i001,BJP,2009,607 - Multiculturalism: Positive,none,neutral,positive,positive,positive
+BJP-2009,BJP-2009-p031-b008-i002,BJP,2009,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p017-b006-i001,BJP,2009,703 - Agriculture and Farmers: Positive,negation_cue,negative,negative,negative,negative
+BJP-2009,BJP-2009-p031-b017-i002,BJP,2009,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p022-b013-i002,BJP,2009,703 - Agriculture and Farmers: Positive,none,positive,positive,positive,neutral
+BJP-2009,BJP-2009-p002-b007-i001,BJP,2009,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+BJP-2009,BJP-2009-p022-b014-i002,BJP,2009,703 - Agriculture and Farmers: Positive,none,positive,neutral,positive,neutral
+BJP-2009,BJP-2009-p038-b017-i002,BJP,2009,705 - Underprivileged Minority Groups,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p019-b007-i002,BJP,2009,706 - Non-economic Demographic Groups,none,neutral,neutral,positive,neutral
+BJP-2009,BJP-2009-p005-b005-i001,BJP,2009,706 - Non-economic Demographic Groups,none,neutral,positive,positive,neutral
+BJP-2009,BJP-2009-p027-b015-i001,BJP,2009,unassigned,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p047-b011-i002,BJP,2014,104 - Military: Positive,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p048-b009-i002,BJP,2014,107 - Internationalism: Positive,none,neutral,positive,positive,neutral
+BJP-2014,BJP-2014-p024-b010-i002,BJP,2014,201 - Freedom and Human Rights,none,neutral,neutral,negative,neutral
+BJP-2014,BJP-2014-p019-b014-i002,BJP,2014,202 - Democracy,none,neutral,neutral,positive,positive
+BJP-2014,BJP-2014-p015-b005-i002,BJP,2014,301 - Federalism,none,positive,neutral,positive,positive
+BJP-2014,BJP-2014-p021-b003-i002,BJP,2014,303 - Governmental and Administrative Efficiency,none,positive,neutral,positive,neutral
+BJP-2014,BJP-2014-p018-b016-i002,BJP,2014,303 - Governmental and Administrative Efficiency,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p012-b008-i002,BJP,2014,303 - Governmental and Administrative Efficiency,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p047-b005-i002,BJP,2014,303 - Governmental and Administrative Efficiency,none,positive,neutral,negative,neutral
+BJP-2014,BJP-2014-p010-b002-i001,BJP,2014,305 - Political Authority,negation_cue,positive,negative,negative,neutral
+BJP-2014,BJP-2014-p013-b005-i001,BJP,2014,305 - Political Authority,none,negative,negative,negative,negative
+BJP-2014,BJP-2014-p035-b013-i002,BJP,2014,402 - Incentives,none,neutral,neutral,neutral,neutral
+BJP-2014,BJP-2014-p035-b008-i002,BJP,2014,403 - Market Regulation,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p031-b021-i002,BJP,2014,405 - Corporatism/ Mixed Economy,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p038-b018-i002,BJP,2014,410 - Economic Growth: Positive,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p042-b007-i001,BJP,2014,411 - Technology and Infrastructure,negation_cue,positive,neutral,positive,neutral
+BJP-2014,BJP-2014-p040-b017-i002,BJP,2014,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+BJP-2014,BJP-2014-p032-b015-i002,BJP,2014,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+BJP-2014,BJP-2014-p040-b011-i002,BJP,2014,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p020-b004-i002,BJP,2014,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p044-b005-i002,BJP,2014,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p006-b010-i001,BJP,2014,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p033-b001-i002,BJP,2014,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+BJP-2014,BJP-2014-p044-b016-i002,BJP,2014,416 - Anti-Growth Economy: Positive,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p044-b007-i001,BJP,2014,501 - Environmental Protection: Positive,negation_cue,positive,positive,positive,neutral
+BJP-2014,BJP-2014-p016-b008-i002,BJP,2014,501 - Environmental Protection: Positive,none,neutral,neutral,neutral,neutral
+BJP-2014,BJP-2014-p044-b013-i002,BJP,2014,501 - Environmental Protection: Positive,none,negative,neutral,negative,neutral
+BJP-2014,BJP-2014-p029-b006-i002,BJP,2014,502 - Culture: Positive,none,neutral,positive,positive,neutral
+BJP-2014,BJP-2014-p024-b007-i001,BJP,2014,503 - Equality: Positive,negation_cue,positive,positive,positive,neutral
+BJP-2014,BJP-2014-p030-b005-i002,BJP,2014,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p023-b010-i002,BJP,2014,503 - Equality: Positive,none,positive,neutral,negative,neutral
+BJP-2014,BJP-2014-p029-b008-i002,BJP,2014,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+BJP-2014,BJP-2014-p026-b016-i002,BJP,2014,504 - Welfare State Expansion,none,negative,neutral,negative,neutral
+BJP-2014,BJP-2014-p033-b011-i002,BJP,2014,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+BJP-2014,BJP-2014-p032-b004-i002,BJP,2014,506 - Education Expansion,none,neutral,neutral,negative,neutral
+BJP-2014,BJP-2014-p016-b012-i002,BJP,2014,506 - Education Expansion,none,neutral,neutral,negative,neutral
+BJP-2014,BJP-2014-p031-b009-i002,BJP,2014,506 - Education Expansion,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p009-b006-i001,BJP,2014,601 - National Way of Life: Positive,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p018-b007-i001,BJP,2014,601 - National Way of Life: Positive,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p020-b017-i002,BJP,2014,605 - Law and Order: Positive,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p022-b007-i002,BJP,2014,605 - Law and Order: Positive,none,neutral,neutral,positive,positive
+BJP-2014,BJP-2014-p021-b007-i002,BJP,2014,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+BJP-2014,BJP-2014-p025-b001-i002,BJP,2014,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p016-b009-i002,BJP,2014,701 - Labour Groups: Positive,none,neutral,positive,positive,neutral
+BJP-2014,BJP-2014-p036-b004-i002,BJP,2014,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p044-b003-i002,BJP,2014,703 - Agriculture and Farmers: Positive,none,positive,neutral,positive,neutral
+BJP-2014,BJP-2014-p012-b014-i002,BJP,2014,703 - Agriculture and Farmers: Positive,none,positive,neutral,positive,neutral
+BJP-2014,BJP-2014-p046-b011-i002,BJP,2014,705 - Underprivileged Minority Groups,none,neutral,neutral,negative,neutral
+BJP-2014,BJP-2014-p030-b013-i002,BJP,2014,706 - Non-economic Demographic Groups,none,neutral,neutral,positive,neutral
+BJP-2014,BJP-2014-p050-b006-i001,BJP,2014,unassigned,none,neutral,positive,positive,positive
+BJP-2019,BJP-2019-p011-b011-i001,BJP,2019,104 - Military: Positive,none,positive,neutral,positive,neutral
+BJP-2019,BJP-2019-p038-b015-i001,BJP,2019,107 - Internationalism: Positive,none,neutral,neutral,negative,neutral
+BJP-2019,BJP-2019-p008-b006-i001,BJP,2019,202 - Democracy,none,neutral,positive,positive,positive
+BJP-2019,BJP-2019-p024-b011-i001,BJP,2019,301 - Federalism,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p016-b009-i001,BJP,2019,303 - Governmental and Administrative Efficiency,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p005-b003-i001,BJP,2019,305 - Political Authority,negation_cue,positive,positive,positive,positive
+BJP-2019,BJP-2019-p024-b006-i001,BJP,2019,305 - Political Authority,none,neutral,positive,positive,positive
+BJP-2019,BJP-2019-p006-b006-i001,BJP,2019,305 - Political Authority,none,positive,positive,positive,positive
+BJP-2019,BJP-2019-p041-b017-i001,BJP,2019,402 - Incentives,none,positive,positive,positive,neutral
+BJP-2019,BJP-2019-p019-b008-i001,BJP,2019,402 - Incentives,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p018-b009-i001,BJP,2019,403 - Market Regulation,none,positive,neutral,positive,neutral
+BJP-2019,BJP-2019-p017-b000-i001,BJP,2019,410 - Economic Growth: Positive,none,neutral,neutral,positive,neutral
+BJP-2019,BJP-2019-p021-b000-i001,BJP,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2019,BJP-2019-p022-b000-i001,BJP,2019,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p018-b005-i001,BJP,2019,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+BJP-2019,BJP-2019-p009-b004-i001,BJP,2019,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p020-b001-i001,BJP,2019,411 - Technology and Infrastructure,none,positive,positive,positive,positive
+BJP-2019,BJP-2019-p022-b005-i001,BJP,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2019,BJP-2019-p022-b003-i001,BJP,2019,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p021-b022-i001,BJP,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2019,BJP-2019-p022-b019-i001,BJP,2019,501 - Environmental Protection: Positive,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p036-b013-i001,BJP,2019,501 - Environmental Protection: Positive,none,positive,neutral,positive,neutral
+BJP-2019,BJP-2019-p036-b018-i001,BJP,2019,502 - Culture: Positive,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p034-b005-i001,BJP,2019,503 - Equality: Positive,none,positive,positive,positive,neutral
+BJP-2019,BJP-2019-p019-b010-i001,BJP,2019,503 - Equality: Positive,none,positive,neutral,positive,neutral
+BJP-2019,BJP-2019-p033-b015-i001,BJP,2019,503 - Equality: Positive,none,positive,positive,positive,neutral
+BJP-2019,BJP-2019-p035-b004-i001,BJP,2019,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+BJP-2019,BJP-2019-p042-b018-i001,BJP,2019,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+BJP-2019,BJP-2019-p041-b018-i001,BJP,2019,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+BJP-2019,BJP-2019-p031-b010-i001,BJP,2019,504 - Welfare State Expansion,none,positive,positive,positive,neutral
+BJP-2019,BJP-2019-p029-b002-i001,BJP,2019,506 - Education Expansion,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p031-b002-i001,BJP,2019,506 - Education Expansion,none,positive,positive,positive,neutral
+BJP-2019,BJP-2019-p027-b007-i001,BJP,2019,506 - Education Expansion,none,positive,positive,positive,neutral
+BJP-2019,BJP-2019-p044-b002-i001,BJP,2019,601 - National Way of Life: Positive,none,neutral,positive,positive,positive
+BJP-2019,BJP-2019-p004-b014-i001,BJP,2019,601 - National Way of Life: Positive,none,neutral,positive,positive,positive
+BJP-2019,BJP-2019-p011-b019-i001,BJP,2019,605 - Law and Order: Positive,none,positive,positive,positive,neutral
+BJP-2019,BJP-2019-p011-b014-i001,BJP,2019,605 - Law and Order: Positive,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p004-b013-i001,BJP,2019,606 - Civic Mindedness: Positive,none,neutral,positive,positive,positive
+BJP-2019,BJP-2019-p026-b018-i001,BJP,2019,607 - Multiculturalism: Positive,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p012-b008-i001,BJP,2019,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+BJP-2019,BJP-2019-p033-b010-i001,BJP,2019,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+BJP-2019,BJP-2019-p014-b016-i001,BJP,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+BJP-2019,BJP-2019-p033-b008-i001,BJP,2019,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p014-b004-i001,BJP,2019,703 - Agriculture and Farmers: Positive,none,positive,positive,positive,neutral
+BJP-2019,BJP-2019-p014-b005-i001,BJP,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+BJP-2019,BJP-2019-p013-b020-i001,BJP,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+BJP-2019,BJP-2019-p041-b006-i001,BJP,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+BJP-2019,BJP-2019-p034-b000-i001,BJP,2019,704 - Middle Class and Professional Groups,none,neutral,positive,positive,neutral
+BJP-2019,BJP-2019-p011-b010-i001,BJP,2019,706 - Non-economic Demographic Groups,none,positive,positive,positive,neutral
+BJP-2019,BJP-2019-p024-b015-i001,BJP,2019,unassigned,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p041-b004-i001,BJP,2024,104 - Military: Positive,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p013-b002-i001,BJP,2024,107 - Internationalism: Positive,none,neutral,neutral,positive,positive
+BJP-2024,BJP-2024-p058-b013-i001,BJP,2024,202 - Democracy,none,neutral,neutral,negative,neutral
+BJP-2024,BJP-2024-p012-b016-i001,BJP,2024,303 - Governmental and Administrative Efficiency,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p058-b005-i001,BJP,2024,303 - Governmental and Administrative Efficiency,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p006-b002-i001,BJP,2024,305 - Political Authority,none,positive,positive,positive,positive
+BJP-2024,BJP-2024-p032-b007-i001,BJP,2024,402 - Incentives,none,positive,positive,positive,neutral
+BJP-2024,BJP-2024-p034-b001-i001,BJP,2024,402 - Incentives,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p043-b002-i001,BJP,2024,410 - Economic Growth: Positive,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p047-b012-i001,BJP,2024,410 - Economic Growth: Positive,none,positive,positive,positive,neutral
+BJP-2024,BJP-2024-p034-b010-i001,BJP,2024,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+BJP-2024,BJP-2024-p054-b015-i001,BJP,2024,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p051-b017-i001,BJP,2024,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+BJP-2024,BJP-2024-p067-b005-i001,BJP,2024,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+BJP-2024,BJP-2024-p046-b020-i001,BJP,2024,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p046-b019-i001,BJP,2024,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+BJP-2024,BJP-2024-p021-b017-i001,BJP,2024,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p054-b016-i001,BJP,2024,411 - Technology and Infrastructure,none,neutral,positive,positive,positive
+BJP-2024,BJP-2024-p032-b009-i001,BJP,2024,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p053-b008-i001,BJP,2024,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p047-b014-i001,BJP,2024,416 - Anti-Growth Economy: Positive,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p004-b003-i001,BJP,2024,416 - Anti-Growth Economy: Positive,none,positive,positive,positive,positive
+BJP-2024,BJP-2024-p070-b006-i001,BJP,2024,501 - Environmental Protection: Positive,none,positive,neutral,positive,neutral
+BJP-2024,BJP-2024-p070-b002-i001,BJP,2024,501 - Environmental Protection: Positive,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p070-b005-i001,BJP,2024,501 - Environmental Protection: Positive,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p040-b015-i001,BJP,2024,502 - Culture: Positive,none,neutral,positive,positive,positive
+BJP-2024,BJP-2024-p013-b009-i001,BJP,2024,502 - Culture: Positive,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p056-b003-i001,BJP,2024,502 - Culture: Positive,none,neutral,neutral,negative,neutral
+BJP-2024,BJP-2024-p019-b001-i001,BJP,2024,503 - Equality: Positive,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p010-b007-i001,BJP,2024,503 - Equality: Positive,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p016-b005-i001,BJP,2024,504 - Welfare State Expansion,none,positive,positive,positive,neutral
+BJP-2024,BJP-2024-p014-b006-i001,BJP,2024,504 - Welfare State Expansion,none,positive,positive,positive,positive
+BJP-2024,BJP-2024-p032-b010-i001,BJP,2024,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+BJP-2024,BJP-2024-p037-b003-i001,BJP,2024,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+BJP-2024,BJP-2024-p010-b005-i001,BJP,2024,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+BJP-2024,BJP-2024-p009-b004-i001,BJP,2024,506 - Education Expansion,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p042-b005-i001,BJP,2024,506 - Education Expansion,none,positive,neutral,positive,neutral
+BJP-2024,BJP-2024-p004-b005-i001,BJP,2024,601 - National Way of Life: Positive,none,positive,positive,positive,positive
+BJP-2024,BJP-2024-p056-b008-i001,BJP,2024,601 - National Way of Life: Positive,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p059-b004-i001,BJP,2024,605 - Law and Order: Positive,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p042-b011-i001,BJP,2024,605 - Law and Order: Positive,none,positive,neutral,negative,neutral
+BJP-2024,BJP-2024-p037-b002-i001,BJP,2024,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+BJP-2024,BJP-2024-p036-b000-i001,BJP,2024,607 - Multiculturalism: Positive,none,positive,neutral,negative,neutral
+BJP-2024,BJP-2024-p021-b013-i001,BJP,2024,701 - Labour Groups: Positive,none,neutral,positive,positive,positive
+BJP-2024,BJP-2024-p026-b016-i001,BJP,2024,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p026-b017-i001,BJP,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+BJP-2024,BJP-2024-p030-b009-i001,BJP,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+BJP-2024,BJP-2024-p025-b006-i001,BJP,2024,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p027-b009-i001,BJP,2024,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+BJP-2024,BJP-2024-p018-b008-i001,BJP,2024,706 - Non-economic Demographic Groups,none,neutral,positive,positive,neutral
+CPIM-2009,CPIM-2009-p008-b002-i003,CPIM,2009,105 - Military: Negative,none,neutral,negative,negative,negative
+CPIM-2009,CPIM-2009-p021-b004-i012,CPIM,2009,107 - Internationalism: Positive,none,positive,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p030-b004-i004,CPIM,2009,201 - Freedom and Human Rights,none,positive,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p001-b003-i001,CPIM,2009,202 - Democracy,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p002-b006-i001,CPIM,2009,202 - Democracy,none,neutral,negative,negative,negative
+CPIM-2009,CPIM-2009-p014-b008-i004,CPIM,2009,301 - Federalism,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p007-b004-i001,CPIM,2009,301 - Federalism,none,neutral,neutral,negative,negative
+CPIM-2009,CPIM-2009-p018-b004-i002,CPIM,2009,303 - Governmental and Administrative Efficiency,none,neutral,positive,positive,positive
+CPIM-2009,CPIM-2009-p002-b007-i001,CPIM,2009,304 - Political Corruption,none,negative,negative,negative,negative
+CPIM-2009,CPIM-2009-p007-b003-i001,CPIM,2009,305 - Political Authority,negation_cue,neutral,negative,negative,negative
+CPIM-2009,CPIM-2009-p004-b005-i001,CPIM,2009,305 - Political Authority,negation_cue,positive,negative,negative,negative
+CPIM-2009,CPIM-2009-p013-b004-i001,CPIM,2009,305 - Political Authority,none,positive,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p021-b003-i001,CPIM,2009,305 - Political Authority,none,neutral,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p013-b003-i001,CPIM,2009,305 - Political Authority,none,neutral,neutral,negative,negative
+CPIM-2009,CPIM-2009-p003-b007-i001,CPIM,2009,401 - Free Market Economy,none,neutral,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p018-b004-i004,CPIM,2009,402 - Incentives,none,positive,positive,positive,positive
+CPIM-2009,CPIM-2009-p010-b003-i003,CPIM,2009,403 - Market Regulation,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p014-b010-i002,CPIM,2009,406 - Protectionism: Positive,none,neutral,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p015-b004-i005,CPIM,2009,407 - Protectionism: Negative,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p018-b004-i008,CPIM,2009,410 - Economic Growth: Positive,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p029-b004-i001,CPIM,2009,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+CPIM-2009,CPIM-2009-p015-b001-i001,CPIM,2009,411 - Technology and Infrastructure,none,neutral,neutral,neutral,neutral
+CPIM-2009,CPIM-2009-p015-b006-i001,CPIM,2009,412 - Controlled Economy,none,positive,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p018-b004-i003,CPIM,2009,413 - Nationalisation,none,neutral,negative,negative,negative
+CPIM-2009,CPIM-2009-p018-b004-i010,CPIM,2009,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p029-b007-i005,CPIM,2009,502 - Culture: Positive,none,neutral,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p004-b003-i001,CPIM,2009,503 - Equality: Positive,none,positive,neutral,negative,negative
+CPIM-2009,CPIM-2009-p023-b007-i002,CPIM,2009,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p015-b004-i002,CPIM,2009,503 - Equality: Positive,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p028-b002-i003,CPIM,2009,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p026-b004-i002,CPIM,2009,504 - Welfare State Expansion,none,neutral,neutral,neutral,neutral
+CPIM-2009,CPIM-2009-p026-b004-i003,CPIM,2009,504 - Welfare State Expansion,none,positive,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p027-b007-i002,CPIM,2009,506 - Education Expansion,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p026-b002-i006,CPIM,2009,506 - Education Expansion,none,neutral,positive,positive,positive
+CPIM-2009,CPIM-2009-p014-b004-i005,CPIM,2009,605 - Law and Order: Positive,none,neutral,negative,negative,neutral
+CPIM-2009,CPIM-2009-p006-b002-i001,CPIM,2009,605 - Law and Order: Positive,none,negative,negative,negative,neutral
+CPIM-2009,CPIM-2009-p031-b002-i003,CPIM,2009,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p001-b005-i001,CPIM,2009,607 - Multiculturalism: Positive,none,neutral,negative,negative,negative
+CPIM-2009,CPIM-2009-p025-b003-i006,CPIM,2009,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p023-b003-i003,CPIM,2009,701 - Labour Groups: Positive,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p022-b004-i003,CPIM,2009,701 - Labour Groups: Positive,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p023-b003-i002,CPIM,2009,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p010-b004-i004,CPIM,2009,703 - Agriculture and Farmers: Positive,negation_cue,positive,negative,negative,neutral
+CPIM-2009,CPIM-2009-p023-b005-i004,CPIM,2009,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p016-b002-i001,CPIM,2009,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,positive
+CPIM-2009,CPIM-2009-p016-b006-i001,CPIM,2009,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p024-b001-i002,CPIM,2009,703 - Agriculture and Farmers: Positive,none,positive,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p019-b005-i003,CPIM,2009,703 - Agriculture and Farmers: Positive,none,positive,neutral,negative,neutral
+CPIM-2009,CPIM-2009-p026-b006-i004,CPIM,2009,705 - Underprivileged Minority Groups,none,positive,neutral,positive,neutral
+CPIM-2009,CPIM-2009-p024-b003-i008,CPIM,2009,706 - Non-economic Demographic Groups,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p030-b013-i001,CPIM,2014,201 - Freedom and Human Rights,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p034-b017-i002,CPIM,2014,202 - Democracy,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p034-b014-i002,CPIM,2014,202 - Democracy,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p014-b009-i002,CPIM,2014,204 - Constitutionalism: Negative,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p025-b005-i002,CPIM,2014,301 - Federalism,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p014-b011-i002,CPIM,2014,301 - Federalism,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p034-b008-i003,CPIM,2014,303 - Governmental and Administrative Efficiency,none,positive,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p015-b012-i002,CPIM,2014,303 - Governmental and Administrative Efficiency,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p033-b009-i002,CPIM,2014,304 - Political Corruption,none,negative,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p011-b004-i001,CPIM,2014,305 - Political Authority,none,positive,neutral,positive,positive
+CPIM-2014,CPIM-2014-p015-b006-i002,CPIM,2014,402 - Incentives,none,neutral,neutral,positive,positive
+CPIM-2014,CPIM-2014-p018-b006-i002,CPIM,2014,403 - Market Regulation,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p017-b013-i001,CPIM,2014,403 - Market Regulation,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p013-b001-i002,CPIM,2014,403 - Market Regulation,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p016-b005-i001,CPIM,2014,406 - Protectionism: Positive,none,neutral,negative,negative,negative
+CPIM-2014,CPIM-2014-p015-b008-i001,CPIM,2014,406 - Protectionism: Positive,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p020-b010-i002,CPIM,2014,410 - Economic Growth: Positive,none,positive,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p031-b012-i002,CPIM,2014,411 - Technology and Infrastructure,none,positive,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p014-b001-i002,CPIM,2014,411 - Technology and Infrastructure,none,neutral,neutral,positive,positive
+CPIM-2014,CPIM-2014-p015-b015-i001,CPIM,2014,411 - Technology and Infrastructure,none,neutral,neutral,positive,positive
+CPIM-2014,CPIM-2014-p018-b008-i003,CPIM,2014,412 - Controlled Economy,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p016-b014-i001,CPIM,2014,413 - Nationalisation,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p012-b009-i002,CPIM,2014,414 - Economic Orthodoxy,none,neutral,neutral,negative,negative
+CPIM-2014,CPIM-2014-p014-b006-i001,CPIM,2014,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p016-b010-i001,CPIM,2014,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p026-b002-i001,CPIM,2014,503 - Equality: Positive,none,negative,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p022-b002-i001,CPIM,2014,503 - Equality: Positive,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p028-b009-i001,CPIM,2014,503 - Equality: Positive,none,positive,neutral,positive,positive
+CPIM-2014,CPIM-2014-p024-b007-i001,CPIM,2014,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p026-b006-i003,CPIM,2014,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p017-b007-i002,CPIM,2014,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p016-b015-i002,CPIM,2014,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p028-b010-i002,CPIM,2014,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p028-b009-i002,CPIM,2014,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p027-b006-i001,CPIM,2014,506 - Education Expansion,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p030-b011-i001,CPIM,2014,506 - Education Expansion,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p025-b003-i002,CPIM,2014,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p019-b009-i001,CPIM,2014,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p025-b006-i003,CPIM,2014,605 - Law and Order: Positive,none,positive,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p025-b011-i001,CPIM,2014,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p027-b014-i001,CPIM,2014,607 - Multiculturalism: Positive,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p021-b004-i001,CPIM,2014,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p029-b001-i002,CPIM,2014,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+CPIM-2014,CPIM-2014-p017-b006-i001,CPIM,2014,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p016-b001-i001,CPIM,2014,703 - Agriculture and Farmers: Positive,none,negative,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p017-b005-i002,CPIM,2014,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p016-b007-i001,CPIM,2014,703 - Agriculture and Farmers: Positive,none,positive,neutral,negative,neutral
+CPIM-2014,CPIM-2014-p027-b007-i001,CPIM,2014,705 - Underprivileged Minority Groups,none,neutral,negative,negative,negative
+CPIM-2014,CPIM-2014-p024-b005-i001,CPIM,2014,706 - Non-economic Demographic Groups,none,neutral,positive,positive,neutral
+CPIM-2014,CPIM-2014-p030-b004-i001,CPIM,2014,unassigned,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p011-b002-i002,CPIM,2019,105 - Military: Negative,none,neutral,negative,negative,negative
+CPIM-2019,CPIM-2019-p018-b005-i001,CPIM,2019,107 - Internationalism: Positive,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p022-b005-i001,CPIM,2019,201 - Freedom and Human Rights,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p034-b005-i002,CPIM,2019,201 - Freedom and Human Rights,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p011-b014-i001,CPIM,2019,202 - Democracy,none,positive,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p019-b002-i002,CPIM,2019,202 - Democracy,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p017-b004-i002,CPIM,2019,301 - Federalism,none,positive,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p014-b017-i002,CPIM,2019,301 - Federalism,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p014-b017-i001,CPIM,2019,303 - Governmental and Administrative Efficiency,none,positive,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p022-b010-i001,CPIM,2019,303 - Governmental and Administrative Efficiency,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p035-b004-i001,CPIM,2019,304 - Political Corruption,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p015-b004-i003,CPIM,2019,402 - Incentives,none,neutral,positive,positive,positive
+CPIM-2019,CPIM-2019-p013-b003-i002,CPIM,2019,403 - Market Regulation,none,neutral,negative,negative,neutral
+CPIM-2019,CPIM-2019-p033-b008-i002,CPIM,2019,403 - Market Regulation,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p030-b001-i002,CPIM,2019,403 - Market Regulation,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p013-b013-i001,CPIM,2019,406 - Protectionism: Positive,none,positive,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p015-b002-i002,CPIM,2019,410 - Economic Growth: Positive,none,positive,positive,positive,neutral
+CPIM-2019,CPIM-2019-p032-b013-i002,CPIM,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p032-b016-i002,CPIM,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p012-b018-i001,CPIM,2019,412 - Controlled Economy,none,positive,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p010-b011-i002,CPIM,2019,413 - Nationalisation,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p016-b014-i002,CPIM,2019,413 - Nationalisation,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p032-b010-i003,CPIM,2019,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p032-b006-i001,CPIM,2019,501 - Environmental Protection: Positive,none,positive,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p024-b010-i001,CPIM,2019,503 - Equality: Positive,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p012-b014-i001,CPIM,2019,503 - Equality: Positive,none,neutral,neutral,negative,negative
+CPIM-2019,CPIM-2019-p010-b007-i002,CPIM,2019,503 - Equality: Positive,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p021-b015-i001,CPIM,2019,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p010-b011-i001,CPIM,2019,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p031-b008-i001,CPIM,2019,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p031-b008-i002,CPIM,2019,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p028-b004-i002,CPIM,2019,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p031-b009-i002,CPIM,2019,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p030-b006-i001,CPIM,2019,506 - Education Expansion,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p028-b010-i002,CPIM,2019,506 - Education Expansion,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p028-b010-i003,CPIM,2019,604 - Traditional Morality: Negative,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p018-b014-i002,CPIM,2019,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p016-b012-i002,CPIM,2019,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p025-b008-i002,CPIM,2019,605 - Law and Order: Positive,none,neutral,negative,negative,negative
+CPIM-2019,CPIM-2019-p026-b007-i002,CPIM,2019,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p026-b003-i001,CPIM,2019,607 - Multiculturalism: Positive,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p015-b011-i002,CPIM,2019,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p030-b008-i003,CPIM,2019,701 - Labour Groups: Positive,none,negative,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p016-b003-i001,CPIM,2019,703 - Agriculture and Farmers: Positive,none,positive,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p021-b006-i002,CPIM,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p015-b014-i002,CPIM,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p014-b006-i002,CPIM,2019,703 - Agriculture and Farmers: Positive,none,positive,neutral,negative,neutral
+CPIM-2019,CPIM-2019-p028-b005-i001,CPIM,2019,705 - Underprivileged Minority Groups,none,neutral,neutral,neutral,neutral
+CPIM-2019,CPIM-2019-p024-b007-i001,CPIM,2019,706 - Non-economic Demographic Groups,none,neutral,neutral,positive,neutral
+CPIM-2019,CPIM-2019-p012-b007-i001,CPIM,2019,unassigned,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p040-b002-i002,CPIM,2024,104 - Military: Positive,none,neutral,positive,positive,neutral
+CPIM-2024,CPIM-2024-p039-b004-i002,CPIM,2024,105 - Military: Negative,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p065-b007-i002,CPIM,2024,201 - Freedom and Human Rights,none,neutral,neutral,negative,negative
+CPIM-2024,CPIM-2024-p023-b010-i002,CPIM,2024,201 - Freedom and Human Rights,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p065-b002-i002,CPIM,2024,202 - Democracy,none,positive,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p066-b008-i002,CPIM,2024,202 - Democracy,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p029-b002-i002,CPIM,2024,204 - Constitutionalism: Negative,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p061-b001-i001,CPIM,2024,301 - Federalism,none,negative,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p059-b006-i002,CPIM,2024,301 - Federalism,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p032-b002-i002,CPIM,2024,303 - Governmental and Administrative Efficiency,none,neutral,positive,positive,positive
+CPIM-2024,CPIM-2024-p065-b005-i002,CPIM,2024,304 - Political Corruption,none,negative,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p065-b001-i001,CPIM,2024,304 - Political Corruption,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p022-b003-i001,CPIM,2024,305 - Political Authority,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p019-b003-i001,CPIM,2024,305 - Political Authority,none,negative,negative,negative,negative
+CPIM-2024,CPIM-2024-p033-b003-i002,CPIM,2024,402 - Incentives,none,positive,positive,positive,positive
+CPIM-2024,CPIM-2024-p027-b002-i002,CPIM,2024,403 - Market Regulation,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p035-b008-i002,CPIM,2024,403 - Market Regulation,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p035-b006-i002,CPIM,2024,406 - Protectionism: Positive,none,positive,neutral,negative,negative
+CPIM-2024,CPIM-2024-p011-b004-i001,CPIM,2024,410 - Economic Growth: Positive,none,negative,negative,negative,neutral
+CPIM-2024,CPIM-2024-p062-b004-i002,CPIM,2024,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+CPIM-2024,CPIM-2024-p037-b014-i002,CPIM,2024,412 - Controlled Economy,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p031-b005-i002,CPIM,2024,413 - Nationalisation,none,neutral,neutral,negative,negative
+CPIM-2024,CPIM-2024-p059-b011-i002,CPIM,2024,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p063-b012-i002,CPIM,2024,502 - Culture: Positive,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p023-b004-i002,CPIM,2024,503 - Equality: Positive,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p035-b009-i002,CPIM,2024,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p059-b004-i002,CPIM,2024,503 - Equality: Positive,none,positive,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p046-b004-i002,CPIM,2024,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p022-b012-i002,CPIM,2024,504 - Welfare State Expansion,negation_cue,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p043-b003-i002,CPIM,2024,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p053-b008-i002,CPIM,2024,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p048-b003-i002,CPIM,2024,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p056-b002-i002,CPIM,2024,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p055-b009-i002,CPIM,2024,506 - Education Expansion,none,neutral,positive,positive,neutral
+CPIM-2024,CPIM-2024-p051-b011-i002,CPIM,2024,506 - Education Expansion,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p052-b010-i002,CPIM,2024,604 - Traditional Morality: Negative,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p053-b001-i001,CPIM,2024,605 - Law and Order: Positive,none,neutral,negative,negative,negative
+CPIM-2024,CPIM-2024-p046-b006-i002,CPIM,2024,605 - Law and Order: Positive,none,negative,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p016-b003-i001,CPIM,2024,607 - Multiculturalism: Positive,negation_cue,positive,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p051-b007-i002,CPIM,2024,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p051-b009-i002,CPIM,2024,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p042-b007-i002,CPIM,2024,701 - Labour Groups: Positive,negation_cue,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p041-b003-i002,CPIM,2024,701 - Labour Groups: Positive,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p056-b004-i002,CPIM,2024,701 - Labour Groups: Positive,none,positive,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p042-b003-i002,CPIM,2024,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p036-b006-i002,CPIM,2024,703 - Agriculture and Farmers: Positive,none,positive,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p025-b006-i002,CPIM,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+CPIM-2024,CPIM-2024-p045-b002-i002,CPIM,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p031-b006-i002,CPIM,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+CPIM-2024,CPIM-2024-p049-b001-i001,CPIM,2024,706 - Non-economic Demographic Groups,none,positive,positive,positive,neutral
+DMK-2014,DMK-2014-p028-g003,DMK,2014,107 - Internationalism: Positive,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p029-g003,DMK,2014,201 - Freedom and Human Rights,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p029-g005,DMK,2014,202 - Democracy,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p014-g002,DMK,2014,301 - Federalism,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p022-g002,DMK,2014,301 - Federalism,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p008-g004,DMK,2014,305 - Political Authority,negation_cue,positive,positive,positive,positive
+DMK-2014,DMK-2014-p064-g009,DMK,2014,305 - Political Authority,none,positive,positive,positive,positive
+DMK-2014,DMK-2014-p060-g001,DMK,2014,305 - Political Authority,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p038-g007,DMK,2014,403 - Market Regulation,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p058-g004,DMK,2014,411 - Technology and Infrastructure,negation_cue,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p055-g003,DMK,2014,411 - Technology and Infrastructure,negation_cue,neutral,negative,negative,neutral
+DMK-2014,DMK-2014-p058-g002,DMK,2014,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p011-g003,DMK,2014,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+DMK-2014,DMK-2014-p055-g004,DMK,2014,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p041-g002,DMK,2014,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+DMK-2014,DMK-2014-p056-g001,DMK,2014,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p027-g001,DMK,2014,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p047-g001,DMK,2014,416 - Anti-Growth Economy: Positive,none,positive,neutral,positive,neutral
+DMK-2014,DMK-2014-p061-g002,DMK,2014,501 - Environmental Protection: Positive,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p015-g005,DMK,2014,503 - Equality: Positive,negation_cue,positive,negative,negative,negative
+DMK-2014,DMK-2014-p023-g002,DMK,2014,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p043-g006,DMK,2014,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p020-g001,DMK,2014,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p063-g001,DMK,2014,504 - Welfare State Expansion,negation_cue,neutral,neutral,negative,negative
+DMK-2014,DMK-2014-p047-g003,DMK,2014,504 - Welfare State Expansion,none,neutral,positive,positive,neutral
+DMK-2014,DMK-2014-p047-g004,DMK,2014,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p046-g003,DMK,2014,504 - Welfare State Expansion,none,neutral,negative,negative,neutral
+DMK-2014,DMK-2014-p048-g003,DMK,2014,506 - Education Expansion,negation_cue,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p022-g005,DMK,2014,506 - Education Expansion,none,positive,neutral,positive,neutral
+DMK-2014,DMK-2014-p048-g002,DMK,2014,506 - Education Expansion,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p009-g002,DMK,2014,603 - Traditional Morality: Positive,none,neutral,positive,positive,positive
+DMK-2014,DMK-2014-p033-g004,DMK,2014,607 - Multiculturalism: Positive,negation_cue,neutral,neutral,neutral,neutral
+DMK-2014,DMK-2014-p034-g001,DMK,2014,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p010-g003,DMK,2014,607 - Multiculturalism: Positive,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p021-g002,DMK,2014,607 - Multiculturalism: Positive,none,positive,neutral,negative,neutral
+DMK-2014,DMK-2014-p015-g004,DMK,2014,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+DMK-2014,DMK-2014-p037-g002,DMK,2014,701 - Labour Groups: Positive,negation_cue,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p044-g005,DMK,2014,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p054-g001,DMK,2014,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p033-g001,DMK,2014,703 - Agriculture and Farmers: Positive,negation_cue,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p050-g003,DMK,2014,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p053-g003,DMK,2014,703 - Agriculture and Farmers: Positive,none,positive,neutral,positive,neutral
+DMK-2014,DMK-2014-p059-g003,DMK,2014,703 - Agriculture and Farmers: Positive,none,positive,neutral,negative,neutral
+DMK-2014,DMK-2014-p051-g001,DMK,2014,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+DMK-2014,DMK-2014-p052-g002,DMK,2014,703 - Agriculture and Farmers: Positive,none,positive,neutral,negative,neutral
+DMK-2014,DMK-2014-p060-g002,DMK,2014,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p032-g002,DMK,2014,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p030-g001,DMK,2014,705 - Underprivileged Minority Groups,none,neutral,neutral,negative,neutral
+DMK-2014,DMK-2014-p061-g005,DMK,2014,706 - Non-economic Demographic Groups,none,positive,neutral,negative,neutral
+DMK-2014,DMK-2014-p062-g001,DMK,2014,706 - Non-economic Demographic Groups,none,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p053-g004,DMK,2019,201 - Freedom and Human Rights,none,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p016-g002,DMK,2019,202 - Democracy,none,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p012-g002,DMK,2019,204 - Constitutionalism: Negative,none,positive,positive,positive,neutral
+DMK-2019,DMK-2019-p022-g001,DMK,2019,301 - Federalism,negation_cue,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p063-g001,DMK,2019,301 - Federalism,none,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p027-g003,DMK,2019,301 - Federalism,none,positive,neutral,positive,neutral
+DMK-2019,DMK-2019-p018-g002,DMK,2019,304 - Political Corruption,negation_cue,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p018-g001,DMK,2019,304 - Political Corruption,none,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p020-g003,DMK,2019,305 - Political Authority,negation_cue,negative,neutral,negative,neutral
+DMK-2019,DMK-2019-p010-g001,DMK,2019,305 - Political Authority,none,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p009-g004,DMK,2019,305 - Political Authority,none,neutral,positive,positive,positive
+DMK-2019,DMK-2019-p046-g003,DMK,2019,402 - Incentives,none,neutral,neutral,positive,neutral
+DMK-2019,DMK-2019-p025-g003,DMK,2019,403 - Market Regulation,negation_cue,neutral,negative,negative,negative
+DMK-2019,DMK-2019-p022-g004,DMK,2019,410 - Economic Growth: Positive,none,neutral,negative,negative,neutral
+DMK-2019,DMK-2019-p060-g001,DMK,2019,411 - Technology and Infrastructure,negation_cue,neutral,neutral,positive,neutral
+DMK-2019,DMK-2019-p057-g001,DMK,2019,411 - Technology and Infrastructure,negation_cue,positive,neutral,positive,neutral
+DMK-2019,DMK-2019-p061-g002,DMK,2019,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p056-g002,DMK,2019,411 - Technology and Infrastructure,none,neutral,positive,positive,positive
+DMK-2019,DMK-2019-p058-g005,DMK,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2019,DMK-2019-p059-g001,DMK,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2019,DMK-2019-p055-g005,DMK,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2019,DMK-2019-p058-g001,DMK,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2019,DMK-2019-p025-g001,DMK,2019,412 - Controlled Economy,none,neutral,negative,negative,neutral
+DMK-2019,DMK-2019-p056-g004,DMK,2019,501 - Environmental Protection: Positive,negation_cue,neutral,negative,negative,negative
+DMK-2019,DMK-2019-p033-g001,DMK,2019,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p054-g002,DMK,2019,503 - Equality: Positive,none,positive,neutral,positive,neutral
+DMK-2019,DMK-2019-p070-g009,DMK,2019,503 - Equality: Positive,none,neutral,positive,positive,positive
+DMK-2019,DMK-2019-p048-g001,DMK,2019,504 - Welfare State Expansion,negation_cue,positive,neutral,positive,neutral
+DMK-2019,DMK-2019-p046-g006,DMK,2019,504 - Welfare State Expansion,none,negative,negative,negative,negative
+DMK-2019,DMK-2019-p039-g002,DMK,2019,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+DMK-2019,DMK-2019-p042-g001,DMK,2019,506 - Education Expansion,negation_cue,positive,neutral,positive,neutral
+DMK-2019,DMK-2019-p042-g004,DMK,2019,506 - Education Expansion,none,neutral,neutral,positive,neutral
+DMK-2019,DMK-2019-p009-g005,DMK,2019,601 - National Way of Life: Positive,none,neutral,positive,negative,negative
+DMK-2019,DMK-2019-p069-g002,DMK,2019,603 - Traditional Morality: Positive,none,positive,neutral,negative,neutral
+DMK-2019,DMK-2019-p021-g001,DMK,2019,605 - Law and Order: Positive,none,neutral,neutral,positive,neutral
+DMK-2019,DMK-2019-p058-g002,DMK,2019,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p068-g006,DMK,2019,607 - Multiculturalism: Positive,negation_cue,neutral,positive,neutral,neutral
+DMK-2019,DMK-2019-p008-g002,DMK,2019,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+DMK-2019,DMK-2019-p045-g002,DMK,2019,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+DMK-2019,DMK-2019-p014-g002,DMK,2019,607 - Multiculturalism: Positive,none,neutral,neutral,negative,neutral
+DMK-2019,DMK-2019-p066-g002,DMK,2019,701 - Labour Groups: Positive,negation_cue,negative,negative,negative,neutral
+DMK-2019,DMK-2019-p038-g001,DMK,2019,701 - Labour Groups: Positive,none,positive,neutral,negative,neutral
+DMK-2019,DMK-2019-p068-g004,DMK,2019,703 - Agriculture and Farmers: Positive,negation_cue,neutral,negative,negative,neutral
+DMK-2019,DMK-2019-p017-g002,DMK,2019,703 - Agriculture and Farmers: Positive,negation_cue,neutral,negative,negative,negative
+DMK-2019,DMK-2019-p052-g001,DMK,2019,703 - Agriculture and Farmers: Positive,none,positive,neutral,positive,neutral
+DMK-2019,DMK-2019-p040-g001,DMK,2019,703 - Agriculture and Farmers: Positive,none,neutral,negative,negative,neutral
+DMK-2019,DMK-2019-p051-g001,DMK,2019,703 - Agriculture and Farmers: Positive,none,positive,neutral,negative,neutral
+DMK-2019,DMK-2019-p053-g003,DMK,2019,705 - Underprivileged Minority Groups,none,neutral,neutral,positive,neutral
+DMK-2019,DMK-2019-p066-g003,DMK,2019,706 - Non-economic Demographic Groups,none,positive,neutral,positive,neutral
+DMK-2019,DMK-2019-p054-g001,DMK,2019,706 - Non-economic Demographic Groups,none,positive,neutral,positive,neutral
+DMK-2024,DMK-2024-p042-b014-i002,DMK,2024,201 - Freedom and Human Rights,none,neutral,negative,negative,negative
+DMK-2024,DMK-2024-p005-b011-i001,DMK,2024,202 - Democracy,none,positive,neutral,negative,negative
+DMK-2024,DMK-2024-p037-b015-i002,DMK,2024,203 - Constitutionalism: Positive,none,positive,positive,positive,positive
+DMK-2024,DMK-2024-p011-b002-i001,DMK,2024,301 - Federalism,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p048-b021-i001,DMK,2024,301 - Federalism,none,neutral,neutral,negative,neutral
+DMK-2024,DMK-2024-p007-b012-i001,DMK,2024,303 - Governmental and Administrative Efficiency,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p017-b001-i001,DMK,2024,304 - Political Corruption,none,positive,negative,negative,negative
+DMK-2024,DMK-2024-p015-b013-i002,DMK,2024,305 - Political Authority,negation_cue,neutral,negative,negative,neutral
+DMK-2024,DMK-2024-p067-b005-i001,DMK,2024,305 - Political Authority,none,positive,positive,positive,neutral
+DMK-2024,DMK-2024-p008-b027-i001,DMK,2024,305 - Political Authority,none,neutral,positive,positive,positive
+DMK-2024,DMK-2024-p008-b002-i001,DMK,2024,305 - Political Authority,none,positive,positive,positive,neutral
+DMK-2024,DMK-2024-p023-b012-i001,DMK,2024,402 - Incentives,none,positive,neutral,positive,neutral
+DMK-2024,DMK-2024-p027-b004-i002,DMK,2024,410 - Economic Growth: Positive,none,positive,positive,positive,positive
+DMK-2024,DMK-2024-p015-b001-i001,DMK,2024,411 - Technology and Infrastructure,negation_cue,neutral,neutral,neutral,neutral
+DMK-2024,DMK-2024-p059-b019-i002,DMK,2024,411 - Technology and Infrastructure,none,positive,neutral,positive,neutral
+DMK-2024,DMK-2024-p033-b018-i002,DMK,2024,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p022-b018-i001,DMK,2024,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+DMK-2024,DMK-2024-p055-b026-i002,DMK,2024,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+DMK-2024,DMK-2024-p049-b012-i002,DMK,2024,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+DMK-2024,DMK-2024-p062-b013-i002,DMK,2024,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p056-b007-i002,DMK,2024,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+DMK-2024,DMK-2024-p021-b028-i001,DMK,2024,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p025-b011-i002,DMK,2024,411 - Technology and Infrastructure,none,positive,neutral,positive,neutral
+DMK-2024,DMK-2024-p065-b013-i002,DMK,2024,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+DMK-2024,DMK-2024-p026-b013-i002,DMK,2024,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+DMK-2024,DMK-2024-p021-b022-i001,DMK,2024,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p055-b005-i002,DMK,2024,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p061-b010-i002,DMK,2024,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p026-b007-i002,DMK,2024,412 - Controlled Economy,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p038-b022-i001,DMK,2024,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+DMK-2024,DMK-2024-p031-b005-i002,DMK,2024,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p051-b001-i002,DMK,2024,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+DMK-2024,DMK-2024-p038-b004-i002,DMK,2024,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p028-b011-i002,DMK,2024,504 - Welfare State Expansion,none,positive,neutral,positive,neutral
+DMK-2024,DMK-2024-p007-b024-i001,DMK,2024,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+DMK-2024,DMK-2024-p041-b023-i002,DMK,2024,506 - Education Expansion,none,neutral,negative,negative,neutral
+DMK-2024,DMK-2024-p024-b001-i001,DMK,2024,506 - Education Expansion,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p037-b026-i002,DMK,2024,605 - Law and Order: Positive,none,negative,neutral,negative,neutral
+DMK-2024,DMK-2024-p029-b020-i002,DMK,2024,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+DMK-2024,DMK-2024-p013-b015-i001,DMK,2024,607 - Multiculturalism: Positive,none,neutral,neutral,negative,neutral
+DMK-2024,DMK-2024-p008-b018-i001,DMK,2024,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+DMK-2024,DMK-2024-p038-b018-i002,DMK,2024,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p036-b005-i002,DMK,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p049-b004-i002,DMK,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+DMK-2024,DMK-2024-p026-b002-i002,DMK,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+DMK-2024,DMK-2024-p063-b009-i001,DMK,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p036-b023-i002,DMK,2024,703 - Agriculture and Farmers: Positive,none,positive,neutral,negative,neutral
+DMK-2024,DMK-2024-p052-b026-i002,DMK,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+DMK-2024,DMK-2024-p031-b024-i001,DMK,2024,705 - Underprivileged Minority Groups,none,positive,neutral,positive,neutral
+DMK-2024,DMK-2024-p034-b017-i001,DMK,2024,unassigned,none,positive,neutral,negative,neutral
+INC-2009,INC-2009-p012-b011-i001,INC,2009,101 - Foreign Special Relationships: Positive,none,positive,positive,positive,positive
+INC-2009,INC-2009-p007-b017-i002,INC,2009,104 - Military: Positive,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p012-b013-i001,INC,2009,107 - Internationalism: Positive,none,neutral,positive,positive,positive
+INC-2009,INC-2009-p003-b016-i001,INC,2009,202 - Democracy,none,neutral,neutral,negative,neutral
+INC-2009,INC-2009-p003-b001-i001,INC,2009,202 - Democracy,none,neutral,neutral,negative,neutral
+INC-2009,INC-2009-p003-b017-i001,INC,2009,301 - Federalism,none,neutral,positive,positive,neutral
+INC-2009,INC-2009-p011-b004-i002,INC,2009,303 - Governmental and Administrative Efficiency,none,neutral,positive,positive,neutral
+INC-2009,INC-2009-p003-b020-i001,INC,2009,305 - Political Authority,negation_cue,neutral,neutral,positive,neutral
+INC-2009,INC-2009-p013-b004-i001,INC,2009,305 - Political Authority,negation_cue,neutral,neutral,positive,neutral
+INC-2009,INC-2009-p003-b011-i001,INC,2009,305 - Political Authority,none,neutral,positive,positive,neutral
+INC-2009,INC-2009-p013-b010-i001,INC,2009,305 - Political Authority,none,neutral,positive,positive,positive
+INC-2009,INC-2009-p004-b002-i001,INC,2009,305 - Political Authority,none,neutral,neutral,negative,neutral
+INC-2009,INC-2009-p003-b013-i001,INC,2009,305 - Political Authority,none,neutral,positive,positive,positive
+INC-2009,INC-2009-p003-b018-i001,INC,2009,305 - Political Authority,none,neutral,neutral,positive,neutral
+INC-2009,INC-2009-p003-b007-i001,INC,2009,305 - Political Authority,none,neutral,positive,positive,positive
+INC-2009,INC-2009-p003-b002-i001,INC,2009,305 - Political Authority,none,neutral,neutral,negative,neutral
+INC-2009,INC-2009-p013-b017-i001,INC,2009,305 - Political Authority,none,neutral,neutral,positive,positive
+INC-2009,INC-2009-p005-b001-i001,INC,2009,305 - Political Authority,none,neutral,neutral,neutral,neutral
+INC-2009,INC-2009-p007-b009-i001,INC,2009,402 - Incentives,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p008-b003-i002,INC,2009,403 - Market Regulation,none,neutral,neutral,positive,neutral
+INC-2009,INC-2009-p010-b016-i001,INC,2009,410 - Economic Growth: Positive,commitment_and_problem_cue,positive,positive,positive,neutral
+INC-2009,INC-2009-p005-b005-i001,INC,2009,410 - Economic Growth: Positive,none,neutral,neutral,neutral,neutral
+INC-2009,INC-2009-p011-b000-i001,INC,2009,410 - Economic Growth: Positive,none,neutral,positive,positive,neutral
+INC-2009,INC-2009-p010-b014-i001,INC,2009,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p006-b006-i002,INC,2009,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p008-b016-i002,INC,2009,411 - Technology and Infrastructure,none,positive,neutral,positive,neutral
+INC-2009,INC-2009-p005-b003-i001,INC,2009,414 - Economic Orthodoxy,none,neutral,neutral,positive,neutral
+INC-2009,INC-2009-p011-b011-i002,INC,2009,501 - Environmental Protection: Positive,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p003-b010-i001,INC,2009,503 - Equality: Positive,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p003-b012-i001,INC,2009,503 - Equality: Positive,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p009-b016-i001,INC,2009,503 - Equality: Positive,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p009-b015-i001,INC,2009,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+INC-2009,INC-2009-p008-b000-i002,INC,2009,504 - Welfare State Expansion,none,neutral,positive,positive,positive
+INC-2009,INC-2009-p013-b007-i001,INC,2009,504 - Welfare State Expansion,none,neutral,positive,positive,neutral
+INC-2009,INC-2009-p009-b006-i001,INC,2009,506 - Education Expansion,none,neutral,neutral,positive,neutral
+INC-2009,INC-2009-p008-b012-i001,INC,2009,506 - Education Expansion,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p009-b011-i001,INC,2009,506 - Education Expansion,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p013-b018-i001,INC,2009,601 - National Way of Life: Positive,none,neutral,neutral,positive,neutral
+INC-2009,INC-2009-p004-b001-i001,INC,2009,601 - National Way of Life: Positive,none,neutral,positive,positive,neutral
+INC-2009,INC-2009-p007-b014-i002,INC,2009,605 - Law and Order: Positive,none,neutral,positive,positive,neutral
+INC-2009,INC-2009-p007-b020-i002,INC,2009,605 - Law and Order: Positive,none,neutral,positive,positive,neutral
+INC-2009,INC-2009-p005-b019-i001,INC,2009,606 - Civic Mindedness: Positive,none,neutral,positive,positive,neutral
+INC-2009,INC-2009-p012-b010-i001,INC,2009,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+INC-2009,INC-2009-p009-b002-i001,INC,2009,607 - Multiculturalism: Positive,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p004-b009-i001,INC,2009,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+INC-2009,INC-2009-p013-b011-i001,INC,2009,607 - Multiculturalism: Positive,none,neutral,neutral,positive,positive
+INC-2009,INC-2009-p008-b002-i001,INC,2009,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+INC-2009,INC-2009-p007-b010-i001,INC,2009,703 - Agriculture and Farmers: Positive,none,positive,positive,positive,neutral
+INC-2009,INC-2009-p006-b001-i002,INC,2009,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,positive
+INC-2009,INC-2009-p010-b003-i002,INC,2009,706 - Non-economic Demographic Groups,none,neutral,neutral,negative,neutral
+INC-2014,INC-2014-p008-b024-i002,INC,2014,104 - Military: Positive,none,positive,positive,positive,neutral
+INC-2014,INC-2014-p016-b024-i002,INC,2014,107 - Internationalism: Positive,none,neutral,neutral,positive,neutral
+INC-2014,INC-2014-p003-b004-i001,INC,2014,201 - Freedom and Human Rights,none,positive,positive,positive,neutral
+INC-2014,INC-2014-p004-b014-i001,INC,2014,202 - Democracy,none,neutral,negative,negative,negative
+INC-2014,INC-2014-p021-b019-i002,INC,2014,301 - Federalism,none,neutral,positive,positive,neutral
+INC-2014,INC-2014-p023-b024-i001,INC,2014,303 - Governmental and Administrative Efficiency,none,neutral,neutral,positive,neutral
+INC-2014,INC-2014-p010-b005-i001,INC,2014,303 - Governmental and Administrative Efficiency,none,neutral,neutral,negative,neutral
+INC-2014,INC-2014-p023-b014-i001,INC,2014,304 - Political Corruption,none,negative,positive,positive,neutral
+INC-2014,INC-2014-p026-b016-i001,INC,2014,305 - Political Authority,none,neutral,positive,positive,positive
+INC-2014,INC-2014-p005-b007-i001,INC,2014,305 - Political Authority,none,neutral,positive,positive,neutral
+INC-2014,INC-2014-p005-b017-i001,INC,2014,305 - Political Authority,none,neutral,neutral,negative,neutral
+INC-2014,INC-2014-p005-b032-i002,INC,2014,402 - Incentives,none,neutral,neutral,positive,neutral
+INC-2014,INC-2014-p007-b023-i002,INC,2014,403 - Market Regulation,none,neutral,neutral,positive,neutral
+INC-2014,INC-2014-p010-b006-i001,INC,2014,410 - Economic Growth: Positive,none,positive,neutral,positive,positive
+INC-2014,INC-2014-p010-b007-i001,INC,2014,410 - Economic Growth: Positive,none,positive,positive,neutral,neutral
+INC-2014,INC-2014-p011-b015-i001,INC,2014,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+INC-2014,INC-2014-p011-b008-i002,INC,2014,411 - Technology and Infrastructure,none,positive,neutral,positive,neutral
+INC-2014,INC-2014-p020-b019-i002,INC,2014,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+INC-2014,INC-2014-p021-b006-i002,INC,2014,411 - Technology and Infrastructure,none,positive,neutral,negative,neutral
+INC-2014,INC-2014-p009-b016-i001,INC,2014,414 - Economic Orthodoxy,none,neutral,neutral,neutral,neutral
+INC-2014,INC-2014-p021-b009-i002,INC,2014,416 - Anti-Growth Economy: Positive,none,neutral,positive,positive,positive
+INC-2014,INC-2014-p019-b013-i001,INC,2014,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+INC-2014,INC-2014-p022-b015-i002,INC,2014,501 - Environmental Protection: Positive,none,positive,positive,positive,neutral
+INC-2014,INC-2014-p016-b023-i001,INC,2014,502 - Culture: Positive,none,neutral,positive,positive,neutral
+INC-2014,INC-2014-p024-b021-i002,INC,2014,503 - Equality: Positive,negation_cue,positive,positive,positive,neutral
+INC-2014,INC-2014-p008-b005-i002,INC,2014,503 - Equality: Positive,none,neutral,positive,positive,neutral
+INC-2014,INC-2014-p014-b008-i002,INC,2014,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+INC-2014,INC-2014-p026-b029-i001,INC,2014,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+INC-2014,INC-2014-p012-b012-i002,INC,2014,504 - Welfare State Expansion,none,neutral,positive,positive,neutral
+INC-2014,INC-2014-p012-b017-i002,INC,2014,504 - Welfare State Expansion,none,positive,positive,positive,neutral
+INC-2014,INC-2014-p012-b005-i002,INC,2014,504 - Welfare State Expansion,none,positive,positive,positive,neutral
+INC-2014,INC-2014-p013-b008-i001,INC,2014,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+INC-2014,INC-2014-p014-b015-i001,INC,2014,504 - Welfare State Expansion,none,negative,negative,negative,neutral
+INC-2014,INC-2014-p016-b006-i002,INC,2014,506 - Education Expansion,none,positive,positive,positive,neutral
+INC-2014,INC-2014-p016-b013-i002,INC,2014,506 - Education Expansion,none,positive,positive,positive,neutral
+INC-2014,INC-2014-p007-b027-i001,INC,2014,506 - Education Expansion,none,neutral,positive,positive,neutral
+INC-2014,INC-2014-p007-b010-i001,INC,2014,601 - National Way of Life: Positive,none,neutral,positive,positive,neutral
+INC-2014,INC-2014-p014-b011-i002,INC,2014,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+INC-2014,INC-2014-p025-b006-i002,INC,2014,605 - Law and Order: Positive,none,neutral,positive,positive,neutral
+INC-2014,INC-2014-p025-b004-i001,INC,2014,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+INC-2014,INC-2014-p013-b016-i002,INC,2014,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+INC-2014,INC-2014-p013-b004-i002,INC,2014,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+INC-2014,INC-2014-p025-b012-i002,INC,2014,701 - Labour Groups: Positive,none,neutral,positive,positive,neutral
+INC-2014,INC-2014-p007-b002-i001,INC,2014,701 - Labour Groups: Positive,none,neutral,negative,positive,neutral
+INC-2014,INC-2014-p017-b014-i001,INC,2014,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+INC-2014,INC-2014-p005-b008-i001,INC,2014,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+INC-2014,INC-2014-p018-b015-i001,INC,2014,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+INC-2014,INC-2014-p015-b005-i002,INC,2014,705 - Underprivileged Minority Groups,none,neutral,neutral,negative,neutral
+INC-2014,INC-2014-p015-b018-i002,INC,2014,706 - Non-economic Demographic Groups,none,neutral,neutral,positive,neutral
+INC-2014,INC-2014-p015-b019-i001,INC,2014,706 - Non-economic Demographic Groups,none,positive,positive,positive,neutral
+INC-2019,INC-2019-p024-b001-i001,INC,2019,104 - Military: Positive,none,positive,neutral,positive,neutral
+INC-2019,INC-2019-p026-b002-i003,INC,2019,107 - Internationalism: Positive,none,neutral,neutral,positive,neutral
+INC-2019,INC-2019-p035-b006-i002,INC,2019,201 - Freedom and Human Rights,none,neutral,negative,negative,neutral
+INC-2019,INC-2019-p035-b002-i001,INC,2019,201 - Freedom and Human Rights,none,neutral,negative,negative,neutral
+INC-2019,INC-2019-p032-b009-i004,INC,2019,202 - Democracy,none,positive,neutral,positive,neutral
+INC-2019,INC-2019-p033-b006-i007,INC,2019,301 - Federalism,none,neutral,neutral,positive,neutral
+INC-2019,INC-2019-p013-b009-i002,INC,2019,301 - Federalism,none,neutral,neutral,negative,neutral
+INC-2019,INC-2019-p019-b004-i001,INC,2019,303 - Governmental and Administrative Efficiency,none,neutral,neutral,negative,neutral
+INC-2019,INC-2019-p019-b001-i003,INC,2019,303 - Governmental and Administrative Efficiency,none,neutral,neutral,positive,positive
+INC-2019,INC-2019-p041-b005-i003,INC,2019,303 - Governmental and Administrative Efficiency,none,neutral,neutral,negative,neutral
+INC-2019,INC-2019-p037-b006-i001,INC,2019,305 - Political Authority,none,neutral,negative,negative,negative
+INC-2019,INC-2019-p018-b005-i005,INC,2019,401 - Free Market Economy,none,neutral,neutral,negative,neutral
+INC-2019,INC-2019-p029-b009-i003,INC,2019,402 - Incentives,none,neutral,positive,positive,positive
+INC-2019,INC-2019-p022-b005-i001,INC,2019,402 - Incentives,none,neutral,neutral,positive,positive
+INC-2019,INC-2019-p037-b004-i001,INC,2019,403 - Market Regulation,none,neutral,neutral,negative,neutral
+INC-2019,INC-2019-p013-b010-i001,INC,2019,410 - Economic Growth: Positive,none,positive,neutral,positive,neutral
+INC-2019,INC-2019-p011-b002-i003,INC,2019,410 - Economic Growth: Positive,none,positive,positive,positive,neutral
+INC-2019,INC-2019-p049-b007-i001,INC,2019,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+INC-2019,INC-2019-p023-b000-i004,INC,2019,411 - Technology and Infrastructure,none,positive,neutral,positive,neutral
+INC-2019,INC-2019-p041-b005-i006,INC,2019,411 - Technology and Infrastructure,none,positive,neutral,positive,neutral
+INC-2019,INC-2019-p022-b000-i002,INC,2019,414 - Economic Orthodoxy,none,neutral,neutral,negative,negative
+INC-2019,INC-2019-p050-b004-i005,INC,2019,501 - Environmental Protection: Positive,negation_cue,neutral,neutral,negative,neutral
+INC-2019,INC-2019-p051-b009-i002,INC,2019,501 - Environmental Protection: Positive,none,neutral,neutral,positive,neutral
+INC-2019,INC-2019-p049-b011-i002,INC,2019,501 - Environmental Protection: Positive,none,neutral,neutral,positive,neutral
+INC-2019,INC-2019-p052-b008-i003,INC,2019,502 - Culture: Positive,none,neutral,neutral,positive,neutral
+INC-2019,INC-2019-p033-b007-i003,INC,2019,502 - Culture: Positive,none,neutral,neutral,positive,neutral
+INC-2019,INC-2019-p035-b006-i003,INC,2019,503 - Equality: Positive,none,neutral,negative,negative,negative
+INC-2019,INC-2019-p028-b002-i004,INC,2019,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+INC-2019,INC-2019-p051-b011-i001,INC,2019,503 - Equality: Positive,none,neutral,neutral,positive,positive
+INC-2019,INC-2019-p008-b000-i001,INC,2019,503 - Equality: Positive,none,neutral,neutral,negative,neutral
+INC-2019,INC-2019-p020-b003-i001,INC,2019,503 - Equality: Positive,none,neutral,neutral,negative,neutral
+INC-2019,INC-2019-p019-b005-i001,INC,2019,504 - Welfare State Expansion,none,positive,neutral,negative,neutral
+INC-2019,INC-2019-p018-b002-i001,INC,2019,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+INC-2019,INC-2019-p014-b009-i001,INC,2019,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+INC-2019,INC-2019-p047-b003-i008,INC,2019,506 - Education Expansion,none,neutral,neutral,positive,neutral
+INC-2019,INC-2019-p047-b003-i002,INC,2019,506 - Education Expansion,none,neutral,negative,negative,neutral
+INC-2019,INC-2019-p029-b012-i001,INC,2019,601 - National Way of Life: Positive,none,neutral,neutral,positive,positive
+INC-2019,INC-2019-p025-b005-i001,INC,2019,605 - Law and Order: Positive,none,neutral,neutral,positive,neutral
+INC-2019,INC-2019-p021-b001-i008,INC,2019,605 - Law and Order: Positive,none,negative,neutral,positive,neutral
+INC-2019,INC-2019-p035-b005-i001,INC,2019,605 - Law and Order: Positive,none,neutral,neutral,positive,neutral
+INC-2019,INC-2019-p014-b004-i001,INC,2019,606 - Civic Mindedness: Positive,none,neutral,neutral,negative,negative
+INC-2019,INC-2019-p042-b002-i007,INC,2019,607 - Multiculturalism: Positive,none,neutral,neutral,negative,neutral
+INC-2019,INC-2019-p041-b004-i004,INC,2019,607 - Multiculturalism: Positive,none,neutral,negative,negative,negative
+INC-2019,INC-2019-p046-b003-i007,INC,2019,701 - Labour Groups: Positive,none,positive,neutral,positive,neutral
+INC-2019,INC-2019-p011-b003-i008,INC,2019,701 - Labour Groups: Positive,none,neutral,positive,positive,neutral
+INC-2019,INC-2019-p015-b001-i001,INC,2019,703 - Agriculture and Farmers: Positive,negation_cue,positive,neutral,positive,neutral
+INC-2019,INC-2019-p051-b009-i003,INC,2019,703 - Agriculture and Farmers: Positive,none,positive,neutral,negative,neutral
+INC-2019,INC-2019-p014-b008-i003,INC,2019,703 - Agriculture and Farmers: Positive,none,positive,neutral,negative,neutral
+INC-2019,INC-2019-p041-b005-i005,INC,2019,703 - Agriculture and Farmers: Positive,none,positive,positive,positive,neutral
+INC-2019,INC-2019-p039-b006-i005,INC,2019,706 - Non-economic Demographic Groups,none,positive,neutral,positive,neutral
+INC-2024,INC-2024-p039-b003-i002,INC,2024,104 - Military: Positive,none,negative,neutral,positive,neutral
+INC-2024,INC-2024-p041-b002-i002,INC,2024,107 - Internationalism: Positive,none,neutral,negative,negative,negative
+INC-2024,INC-2024-p022-b001-i001,INC,2024,201 - Freedom and Human Rights,none,neutral,positive,positive,positive
+INC-2024,INC-2024-p024-b002-i002,INC,2024,201 - Freedom and Human Rights,none,positive,neutral,positive,neutral
+INC-2024,INC-2024-p023-b001-i002,INC,2024,202 - Democracy,none,neutral,neutral,negative,neutral
+INC-2024,INC-2024-p032-b009-i002,INC,2024,301 - Federalism,none,neutral,neutral,negative,neutral
+INC-2024,INC-2024-p037-b001-i001,INC,2024,301 - Federalism,none,neutral,neutral,negative,neutral
+INC-2024,INC-2024-p044-b009-i002,INC,2024,303 - Governmental and Administrative Efficiency,none,positive,neutral,positive,neutral
+INC-2024,INC-2024-p005-b004-i001,INC,2024,305 - Political Authority,none,neutral,neutral,negative,neutral
+INC-2024,INC-2024-p028-b003-i001,INC,2024,401 - Free Market Economy,none,positive,positive,positive,neutral
+INC-2024,INC-2024-p007-b002-i002,INC,2024,402 - Incentives,none,neutral,positive,positive,neutral
+INC-2024,INC-2024-p027-b002-i002,INC,2024,402 - Incentives,none,positive,positive,positive,neutral
+INC-2024,INC-2024-p036-b005-i002,INC,2024,403 - Market Regulation,none,neutral,neutral,negative,negative
+INC-2024,INC-2024-p033-b010-i002,INC,2024,403 - Market Regulation,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p038-b001-i002,INC,2024,407 - Protectionism: Negative,none,positive,positive,positive,neutral
+INC-2024,INC-2024-p030-b008-i001,INC,2024,410 - Economic Growth: Positive,none,neutral,positive,positive,neutral
+INC-2024,INC-2024-p028-b005-i001,INC,2024,410 - Economic Growth: Positive,none,positive,positive,positive,neutral
+INC-2024,INC-2024-p038-b000-i002,INC,2024,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p044-b010-i002,INC,2024,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p043-b006-i002,INC,2024,416 - Anti-Growth Economy: Positive,none,positive,positive,positive,neutral
+INC-2024,INC-2024-p038-b009-i002,INC,2024,501 - Environmental Protection: Positive,none,positive,negative,negative,neutral
+INC-2024,INC-2024-p034-b009-i002,INC,2024,501 - Environmental Protection: Positive,none,positive,neutral,negative,neutral
+INC-2024,INC-2024-p015-b004-i002,INC,2024,502 - Culture: Positive,none,positive,neutral,positive,neutral
+INC-2024,INC-2024-p014-b011-i002,INC,2024,502 - Culture: Positive,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p017-b004-i002,INC,2024,503 - Equality: Positive,commitment_and_problem_cue,negative,neutral,negative,neutral
+INC-2024,INC-2024-p030-b005-i001,INC,2024,503 - Equality: Positive,negation_cue,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p017-b009-i002,INC,2024,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p034-b002-i002,INC,2024,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p017-b006-i002,INC,2024,503 - Equality: Positive,none,neutral,positive,positive,neutral
+INC-2024,INC-2024-p021-b010-i002,INC,2024,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p011-b002-i002,INC,2024,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p010-b002-i002,INC,2024,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p007-b005-i002,INC,2024,506 - Education Expansion,none,neutral,positive,positive,neutral
+INC-2024,INC-2024-p014-b006-i002,INC,2024,506 - Education Expansion,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p014-b000-i002,INC,2024,506 - Education Expansion,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p013-b002-i002,INC,2024,506 - Education Expansion,none,neutral,neutral,negative,neutral
+INC-2024,INC-2024-p006-b007-i001,INC,2024,601 - National Way of Life: Positive,none,positive,neutral,positive,neutral
+INC-2024,INC-2024-p026-b003-i001,INC,2024,605 - Law and Order: Positive,none,neutral,negative,negative,negative
+INC-2024,INC-2024-p040-b004-i001,INC,2024,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+INC-2024,INC-2024-p008-b005-i002,INC,2024,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+INC-2024,INC-2024-p009-b006-i002,INC,2024,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p029-b008-i002,INC,2024,701 - Labour Groups: Positive,none,neutral,positive,positive,neutral
+INC-2024,INC-2024-p005-b005-i002,INC,2024,701 - Labour Groups: Positive,none,negative,negative,negative,neutral
+INC-2024,INC-2024-p018-b004-i002,INC,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p020-b004-i002,INC,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+INC-2024,INC-2024-p019-b006-i002,INC,2024,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+INC-2024,INC-2024-p020-b008-i002,INC,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+INC-2024,INC-2024-p009-b002-i002,INC,2024,705 - Underprivileged Minority Groups,none,neutral,positive,positive,positive
+INC-2024,INC-2024-p010-b007-i002,INC,2024,706 - Non-economic Demographic Groups,none,positive,neutral,negative,neutral
+INC-2024,INC-2024-p040-b013-i002,INC,2024,unassigned,none,neutral,neutral,neutral,neutral
+TMC-2014,TMC-2014-p013-g004,TMC,2014,104 - Military: Positive,none,neutral,neutral,negative,neutral
+TMC-2014,TMC-2014-p012-g013,TMC,2014,106 - Peace,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p007-g003,TMC,2014,201 - Freedom and Human Rights,none,neutral,neutral,negative,neutral
+TMC-2014,TMC-2014-p007-g002,TMC,2014,202 - Democracy,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p002-g003,TMC,2014,202 - Democracy,none,neutral,positive,positive,positive
+TMC-2014,TMC-2014-p012-g008,TMC,2014,301 - Federalism,negation_cue,positive,neutral,positive,neutral
+TMC-2014,TMC-2014-p006-g009,TMC,2014,301 - Federalism,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p011-g012,TMC,2014,303 - Governmental and Administrative Efficiency,none,neutral,neutral,negative,neutral
+TMC-2014,TMC-2014-p006-g005,TMC,2014,303 - Governmental and Administrative Efficiency,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p006-g010,TMC,2014,304 - Political Corruption,negation_cue,neutral,neutral,negative,neutral
+TMC-2014,TMC-2014-p013-g011,TMC,2014,305 - Political Authority,none,neutral,neutral,negative,neutral
+TMC-2014,TMC-2014-p003-g003,TMC,2014,305 - Political Authority,none,positive,positive,positive,positive
+TMC-2014,TMC-2014-p003-g007,TMC,2014,305 - Political Authority,none,neutral,neutral,negative,neutral
+TMC-2014,TMC-2014-p010-g012,TMC,2014,402 - Incentives,none,positive,positive,positive,positive
+TMC-2014,TMC-2014-p010-g010,TMC,2014,404 - Economic Planning,none,positive,positive,positive,neutral
+TMC-2014,TMC-2014-p005-g007,TMC,2014,410 - Economic Growth: Positive,none,positive,neutral,negative,neutral
+TMC-2014,TMC-2014-p010-g011,TMC,2014,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p012-g004,TMC,2014,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+TMC-2014,TMC-2014-p011-g005,TMC,2014,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p009-g008,TMC,2014,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+TMC-2014,TMC-2014-p011-g002,TMC,2014,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p011-g006,TMC,2014,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+TMC-2014,TMC-2014-p010-g014,TMC,2014,501 - Environmental Protection: Positive,none,neutral,neutral,negative,negative
+TMC-2014,TMC-2014-p009-g001,TMC,2014,502 - Culture: Positive,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p005-g009,TMC,2014,503 - Equality: Positive,negation_cue,positive,negative,negative,neutral
+TMC-2014,TMC-2014-p004-g013,TMC,2014,503 - Equality: Positive,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p005-g008,TMC,2014,503 - Equality: Positive,none,negative,negative,negative,neutral
+TMC-2014,TMC-2014-p002-g009,TMC,2014,503 - Equality: Positive,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p007-g009,TMC,2014,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p007-g015,TMC,2014,504 - Welfare State Expansion,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p007-g014,TMC,2014,504 - Welfare State Expansion,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p007-g013,TMC,2014,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p004-g010,TMC,2014,506 - Education Expansion,none,neutral,neutral,negative,neutral
+TMC-2014,TMC-2014-p008-g010,TMC,2014,506 - Education Expansion,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p004-g001,TMC,2014,601 - National Way of Life: Positive,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p013-g010,TMC,2014,601 - National Way of Life: Positive,none,neutral,neutral,negative,negative
+TMC-2014,TMC-2014-p002-g002,TMC,2014,603 - Traditional Morality: Positive,none,negative,negative,negative,neutral
+TMC-2014,TMC-2014-p007-g007,TMC,2014,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+TMC-2014,TMC-2014-p011-g009,TMC,2014,605 - Law and Order: Positive,none,neutral,negative,negative,neutral
+TMC-2014,TMC-2014-p011-g013,TMC,2014,607 - Multiculturalism: Positive,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p004-g005,TMC,2014,607 - Multiculturalism: Positive,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p005-g002,TMC,2014,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p010-g006,TMC,2014,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p010-g001,TMC,2014,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p009-g011,TMC,2014,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p009-g009,TMC,2014,703 - Agriculture and Farmers: Positive,none,positive,positive,positive,neutral
+TMC-2014,TMC-2014-p002-g005,TMC,2014,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+TMC-2014,TMC-2014-p010-g005,TMC,2014,703 - Agriculture and Farmers: Positive,none,positive,positive,positive,positive
+TMC-2014,TMC-2014-p008-g003,TMC,2014,706 - Non-economic Demographic Groups,none,neutral,neutral,positive,neutral
+TMC-2014,TMC-2014-p005-g006,TMC,2014,706 - Non-economic Demographic Groups,none,neutral,neutral,positive,positive
+TMC-2019,TMC-2019-p060-b022-i001,TMC,2019,107 - Internationalism: Positive,none,neutral,neutral,neutral,neutral
+TMC-2019,TMC-2019-p046-b002-i002,TMC,2019,301 - Federalism,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p056-b007-i002,TMC,2019,303 - Governmental and Administrative Efficiency,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p024-b007-i001,TMC,2019,305 - Political Authority,negation_cue,neutral,negative,negative,negative
+TMC-2019,TMC-2019-p012-b002-i001,TMC,2019,305 - Political Authority,none,neutral,negative,negative,negative
+TMC-2019,TMC-2019-p022-b010-i001,TMC,2019,305 - Political Authority,none,neutral,negative,negative,negative
+TMC-2019,TMC-2019-p013-b002-i001,TMC,2019,305 - Political Authority,none,neutral,negative,negative,negative
+TMC-2019,TMC-2019-p048-b004-i007,TMC,2019,402 - Incentives,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p027-b002-i001,TMC,2019,410 - Economic Growth: Positive,none,negative,negative,negative,negative
+TMC-2019,TMC-2019-p048-b007-i001,TMC,2019,410 - Economic Growth: Positive,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p054-b008-i002,TMC,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p061-b006-i002,TMC,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p066-b005-i001,TMC,2019,411 - Technology and Infrastructure,none,neutral,neutral,neutral,neutral
+TMC-2019,TMC-2019-p069-b009-i003,TMC,2019,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p062-b020-i002,TMC,2019,411 - Technology and Infrastructure,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p061-b006-i001,TMC,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p055-b003-i001,TMC,2019,411 - Technology and Infrastructure,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p063-b021-i002,TMC,2019,416 - Anti-Growth Economy: Positive,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p065-b012-i002,TMC,2019,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p061-b010-i002,TMC,2019,501 - Environmental Protection: Positive,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p041-b004-i001,TMC,2019,502 - Culture: Positive,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p053-b004-i001,TMC,2019,503 - Equality: Positive,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p068-b006-i002,TMC,2019,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p036-b001-i002,TMC,2019,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p068-b013-i002,TMC,2019,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p053-b003-i001,TMC,2019,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p057-b007-i002,TMC,2019,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p065-b001-i002,TMC,2019,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p067-b006-i001,TMC,2019,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p059-b011-i002,TMC,2019,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p060-b006-i002,TMC,2019,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p052-b008-i001,TMC,2019,506 - Education Expansion,negation_cue,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p068-b003-i001,TMC,2019,506 - Education Expansion,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p054-b002-i002,TMC,2019,506 - Education Expansion,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p030-b009-i001,TMC,2019,506 - Education Expansion,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p016-b003-i001,TMC,2019,601 - National Way of Life: Positive,none,positive,positive,positive,positive
+TMC-2019,TMC-2019-p034-b005-i001,TMC,2019,605 - Law and Order: Positive,none,positive,neutral,positive,neutral
+TMC-2019,TMC-2019-p056-b004-i002,TMC,2019,605 - Law and Order: Positive,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p017-b005-i001,TMC,2019,607 - Multiculturalism: Positive,none,positive,positive,positive,neutral
+TMC-2019,TMC-2019-p030-b002-i001,TMC,2019,607 - Multiculturalism: Positive,none,neutral,positive,positive,neutral
+TMC-2019,TMC-2019-p069-b002-i001,TMC,2019,607 - Multiculturalism: Positive,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p032-b006-i001,TMC,2019,701 - Labour Groups: Positive,none,positive,positive,positive,neutral
+TMC-2019,TMC-2019-p067-b011-i001,TMC,2019,701 - Labour Groups: Positive,none,negative,neutral,positive,neutral
+TMC-2019,TMC-2019-p021-b007-i001,TMC,2019,703 - Agriculture and Farmers: Positive,none,neutral,negative,negative,neutral
+TMC-2019,TMC-2019-p048-b004-i004,TMC,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p061-b008-i002,TMC,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+TMC-2019,TMC-2019-p050-b001-i002,TMC,2019,703 - Agriculture and Farmers: Positive,none,neutral,neutral,negative,neutral
+TMC-2019,TMC-2019-p049-b001-i001,TMC,2019,703 - Agriculture and Farmers: Positive,none,neutral,positive,positive,neutral
+TMC-2019,TMC-2019-p031-b003-i002,TMC,2019,706 - Non-economic Demographic Groups,none,neutral,positive,positive,positive
+TMC-2019,TMC-2019-p027-b008-i001,TMC,2019,unassigned,none,neutral,neutral,positive,neutral
+TMC-2024,TMC-2024-p015-b013-i002,TMC,2024,201 - Freedom and Human Rights,none,neutral,neutral,negative,neutral
+TMC-2024,TMC-2024-p015-b007-i001,TMC,2024,202 - Democracy,none,neutral,neutral,positive,neutral
+TMC-2024,TMC-2024-p014-b001-i001,TMC,2024,301 - Federalism,none,neutral,neutral,positive,neutral
+TMC-2024,TMC-2024-p014-b010-i001,TMC,2024,301 - Federalism,none,neutral,neutral,positive,neutral
+TMC-2024,TMC-2024-p068-b007-i001,TMC,2024,303 - Governmental and Administrative Efficiency,none,neutral,neutral,positive,neutral
+TMC-2024,TMC-2024-p098-b002-i001,TMC,2024,305 - Political Authority,negation_cue,positive,positive,positive,positive
+TMC-2024,TMC-2024-p056-b002-i001,TMC,2024,305 - Political Authority,none,neutral,negative,negative,negative
+TMC-2024,TMC-2024-p026-b001-i001,TMC,2024,305 - Political Authority,none,positive,negative,negative,negative
+TMC-2024,TMC-2024-p020-b006-i001,TMC,2024,305 - Political Authority,none,neutral,neutral,negative,negative
+TMC-2024,TMC-2024-p089-b015-i001,TMC,2024,402 - Incentives,none,positive,positive,positive,neutral
+TMC-2024,TMC-2024-p090-b002-i001,TMC,2024,410 - Economic Growth: Positive,none,neutral,positive,positive,positive
+TMC-2024,TMC-2024-p087-b004-i001,TMC,2024,410 - Economic Growth: Positive,none,neutral,positive,positive,positive
+TMC-2024,TMC-2024-p013-b008-i001,TMC,2024,410 - Economic Growth: Positive,none,neutral,positive,positive,positive
+TMC-2024,TMC-2024-p052-b005-i001,TMC,2024,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+TMC-2024,TMC-2024-p065-b004-i001,TMC,2024,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+TMC-2024,TMC-2024-p014-b008-i001,TMC,2024,411 - Technology and Infrastructure,none,neutral,positive,positive,neutral
+TMC-2024,TMC-2024-p051-b012-i001,TMC,2024,411 - Technology and Infrastructure,none,positive,positive,positive,neutral
+TMC-2024,TMC-2024-p052-b013-i001,TMC,2024,411 - Technology and Infrastructure,none,positive,positive,positive,positive
+TMC-2024,TMC-2024-p022-b001-i001,TMC,2024,412 - Controlled Economy,none,positive,neutral,positive,neutral
+TMC-2024,TMC-2024-p053-b001-i001,TMC,2024,501 - Environmental Protection: Positive,none,neutral,neutral,neutral,neutral
+TMC-2024,TMC-2024-p094-b005-i001,TMC,2024,501 - Environmental Protection: Positive,none,neutral,negative,negative,negative
+TMC-2024,TMC-2024-p082-b009-i001,TMC,2024,502 - Culture: Positive,none,positive,positive,positive,neutral
+TMC-2024,TMC-2024-p082-b007-i001,TMC,2024,502 - Culture: Positive,none,neutral,positive,positive,neutral
+TMC-2024,TMC-2024-p061-b009-i001,TMC,2024,503 - Equality: Positive,none,neutral,positive,positive,neutral
+TMC-2024,TMC-2024-p060-b003-i001,TMC,2024,503 - Equality: Positive,none,neutral,negative,negative,negative
+TMC-2024,TMC-2024-p013-b009-i001,TMC,2024,503 - Equality: Positive,none,positive,positive,positive,neutral
+TMC-2024,TMC-2024-p046-b007-i001,TMC,2024,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+TMC-2024,TMC-2024-p045-b005-i001,TMC,2024,504 - Welfare State Expansion,none,neutral,positive,positive,neutral
+TMC-2024,TMC-2024-p077-b005-i001,TMC,2024,504 - Welfare State Expansion,none,neutral,neutral,negative,neutral
+TMC-2024,TMC-2024-p060-b015-i001,TMC,2024,504 - Welfare State Expansion,none,neutral,neutral,positive,neutral
+TMC-2024,TMC-2024-p014-b009-i001,TMC,2024,504 - Welfare State Expansion,none,positive,positive,positive,neutral
+TMC-2024,TMC-2024-p062-b009-i001,TMC,2024,504 - Welfare State Expansion,none,negative,positive,positive,neutral
+TMC-2024,TMC-2024-p039-b004-i001,TMC,2024,506 - Education Expansion,none,neutral,positive,positive,neutral
+TMC-2024,TMC-2024-p038-b001-i001,TMC,2024,506 - Education Expansion,none,neutral,negative,negative,negative
+TMC-2024,TMC-2024-p068-b011-i002,TMC,2024,506 - Education Expansion,none,positive,positive,positive,positive
+TMC-2024,TMC-2024-p062-b010-i001,TMC,2024,506 - Education Expansion,none,neutral,positive,positive,neutral
+TMC-2024,TMC-2024-p013-b011-i001,TMC,2024,601 - National Way of Life: Positive,none,neutral,neutral,negative,neutral
+TMC-2024,TMC-2024-p029-b001-i001,TMC,2024,605 - Law and Order: Positive,none,neutral,neutral,positive,neutral
+TMC-2024,TMC-2024-p063-b003-i001,TMC,2024,605 - Law and Order: Positive,none,positive,neutral,positive,neutral
+TMC-2024,TMC-2024-p041-b007-i001,TMC,2024,607 - Multiculturalism: Positive,none,positive,neutral,neutral,neutral
+TMC-2024,TMC-2024-p057-b004-i001,TMC,2024,607 - Multiculturalism: Positive,none,neutral,positive,negative,neutral
+TMC-2024,TMC-2024-p098-b016-i001,TMC,2024,607 - Multiculturalism: Positive,none,positive,neutral,positive,neutral
+TMC-2024,TMC-2024-p098-b013-i001,TMC,2024,607 - Multiculturalism: Positive,none,neutral,neutral,negative,neutral
+TMC-2024,TMC-2024-p079-b011-i002,TMC,2024,701 - Labour Groups: Positive,none,positive,neutral,negative,neutral
+TMC-2024,TMC-2024-p079-b017-i001,TMC,2024,701 - Labour Groups: Positive,none,neutral,neutral,positive,neutral
+TMC-2024,TMC-2024-p032-b012-i001,TMC,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+TMC-2024,TMC-2024-p033-b003-i001,TMC,2024,703 - Agriculture and Farmers: Positive,none,positive,positive,positive,neutral
+TMC-2024,TMC-2024-p034-b012-i001,TMC,2024,703 - Agriculture and Farmers: Positive,none,neutral,neutral,positive,neutral
+TMC-2024,TMC-2024-p034-b008-i001,TMC,2024,703 - Agriculture and Farmers: Positive,none,positive,negative,positive,neutral
+TMC-2024,TMC-2024-p052-b012-i001,TMC,2024,706 - Non-economic Demographic Groups,none,neutral,neutral,positive,neutral

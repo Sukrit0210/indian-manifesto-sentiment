@@ -103,17 +103,42 @@ All four negation edits lowered the RoBERTa score. Across the three OCR settings
 
 ![Sentiment label sensitivity to simulated OCR errors](outputs/sensitivity/ocr_sensitivity.png)
 
+### Expanded negation test
+
+The audit searched for a single unambiguous evaluative clause per passage and found three eligible direct source edits. To reach five cases per manifesto, it added 102 constructed evaluative clauses to source passages. Each pair inserts `not` at a recorded offset. The expected direction depends on the adjective being negated. The audit measures the movement of the lexicon score and of RoBERTa’s positive probability minus its negative probability. [Coverage by manifesto](outputs/sensitivity/expanded/negation_coverage.csv) · [Text pairs and offsets](outputs/sensitivity/expanded/negation_cases.csv)
+
+| Case type | Pairs | Lexicon expected direction | RoBERTa expected direction | RoBERTa label changes |
+|---|---:|---:|---:|---:|
+| Direct source edit | 3 | 0 | 3 | 1 |
+| Constructed clause with manifesto context | 102 | 0 | 102 | 86 |
+
+The lexicon score stayed fixed on all pairs. RoBERTa responded in the specified direction on all 105 pairs, with 87 discrete label changes. The constructed tests measure responses to a small family of explicit clauses in varied manifesto contexts. Accuracy on naturally occurring negation would require independent labels. [Negation summary](outputs/sensitivity/expanded/negation_summary.csv)
+
+### Size of the party-ordering differences
+
+For the 145 reversals where both parties had at least 10 weighted passages, the median absolute difference between the two methods’ estimates of the party gap was **8.2 percentage points**. For the 192 comparisons where both methods gave the same ordering, it was **3.9 points**. The perturbation tables also give counts by manifesto, party and year. For example, RoBERTa’s nine name-swap label changes occurred in Congress (5 of 80), DMK (2 of 36) and TMC (2 of 46) source passages. [Gap sizes](outputs/sensitivity/expanded/ordering_gap_sizes.csv) · [Perturbations by group](outputs/sensitivity/expanded/perturbations_by_group.csv)
+
 ### Agreement with BART on a common sample
 
-The comparison uses 20 reproducibly sampled passages from each of the 21 manifestos. The frozen BART model scores entailment for positive, neutral, and negative tone hypotheses and selects the label with the highest entailment logit. It caps inputs at 512 tokens. [Comparison script](src/06_audit_sensitivity.py)
+The expanded comparison uses 50 reproducibly sampled passages from each of the 21 manifestos. The sampler allocates each document’s quota proportionally across strata defined by the dominant policy topic and the tracked linguistic cues. Both BART prompt variants use the same 1,050 passages. The frozen BART model scores entailment for positive, neutral, and negative tone hypotheses and selects the label with the highest entailment logit. It caps inputs at 512 tokens. The second prompt replaces the generic neutral hypothesis with a description of factual or procedural language without clear praise or criticism. The positive and negative hypotheses stay the same. [Comparison script](src/07_expanded_audit.py)
 
-| Methods | Agreements out of 420 | Share |
+| Method | Negative | Neutral | Positive |
+|---|---:|---:|---:|
+| Lexicon | 43 | 754 | 253 |
+| RoBERTa | 93 | 698 | 259 |
+| BART, original prompt | 386 | 20 | 644 |
+| BART, neutral-explicit prompt | 71 | 887 | 92 |
+
+| Methods | Agreements out of 1,050 | Share |
 |---|---:|---:|
-| Lexicon and RoBERTa | 267 | 63.6% |
-| Lexicon and BART | 106 | 25.2% |
-| RoBERTa and BART | 149 | 35.5% |
+| Lexicon and RoBERTa | 662 | 63.0% |
+| Lexicon and BART, original prompt | 246 | 23.4% |
+| RoBERTa and BART, original prompt | 359 | 34.2% |
+| Lexicon and BART, neutral-explicit prompt | 673 | 64.1% |
+| RoBERTa and BART, neutral-explicit prompt | 774 | 73.7% |
+| BART, original and neutral-explicit prompts | 183 | 17.4% |
 
-BART assigned 248 positive, 161 negative, and 11 neutral labels on this sample. The difference in label use helps explain the low agreement rates. These results describe this sampled set of passages and the particular BART prompt. [Sample labels](outputs/sensitivity/three_method_cases.csv) · [Agreement summary](outputs/sensitivity/three_method_agreement.csv)
+Changing the neutral hypothesis changed 867 labels and increased the neutral share from 1.9% to 84.5%. The result demonstrates how strongly zero-shot sentiment depends on the prompt in this sample. The higher agreement describes closer alignment with the other methods. Independent labels would be needed to compare accuracy. [Sample labels](outputs/sensitivity/expanded/bart_cases.csv) · [Label counts](outputs/sensitivity/expanded/bart_label_counts.csv) · [Agreement summary](outputs/sensitivity/expanded/bart_agreement.csv)
 
 ## 12. Discussion
 
@@ -129,7 +154,7 @@ A later validation study could have independent readers label a sample of passag
 
 ## 15. Conclusion
 
-The expanded dataset let us compare manifesto tone across six parties and four elections. The two methods agreed on about two-thirds of passages, while RoBERTa assigned negative sentiment more than twice as often. The agriculture comparison shows that an overall party trend can differ from the trend within an issue. Among the 415 party comparisons with at least 10 weighted passages per party, 145 reversed. The ordering table identifies which comparisons depend on the method, and the perturbation table shows which of the tested text edits change labels.
+The expanded dataset let us compare manifesto tone across six parties and four elections. The two methods agreed on about two-thirds of passages, while RoBERTa assigned negative sentiment more than twice as often. The agriculture comparison shows that an overall party trend can differ from the trend within an issue. Among the 415 party comparisons with at least 10 weighted passages per party, 145 reversed. The ordering table identifies which comparisons depend on the method. Across the 1,050 sampled passages, a single change to BART’s neutral hypothesis changed 867 predictions, adding prompt wording as another measurement choice that affects the results.
 
 ## 16. References
 

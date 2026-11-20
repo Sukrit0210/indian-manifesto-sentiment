@@ -29,14 +29,9 @@ def summarize(frame, by):
         table[f"{name}_share"] = table[name] / table["passage_weight"]
     return table.reset_index()
 
-def write_disagreement_audit(scores, passages):
-    rows = scores.merge(
-        passages[["passage_id", "document_id", "page", "source_url", "text"]],
-        on="passage_id",
-        validate="one_to_one",
-    )
-    text = rows["text"].fillna("")
-
+def disagreement_cues(text):
+    text = text.fillna("")
+    rows = pd.DataFrame(index=text.index)
     rows["negation_cue"] = text.str.contains(
         r"\b(?:no|not|never|cannot|without)\b|\b\w+n['’]t\b",
         case=False,
@@ -59,6 +54,17 @@ def write_disagreement_audit(scores, passages):
 
     cues = ["negation_cue", "criticism_cue", "commitment_and_problem_cue"]
     rows["no_tracked_cue"] = ~rows[cues].any(axis=1)
+    return rows
+
+
+def write_disagreement_audit(scores, passages):
+    rows = scores.merge(
+        passages[["passage_id", "document_id", "page", "source_url", "text"]],
+        on="passage_id",
+        validate="one_to_one",
+    )
+    rows = rows.join(disagreement_cues(rows["text"]))
+    cues = ["negation_cue", "criticism_cue", "commitment_and_problem_cue"]
     rows["disagree"] = rows["lexicon_label"] != rows["contextual_label"]
     rows["roberta_confidence"] = rows[["p_negative", "p_neutral", "p_positive"]].max(axis=1)
 

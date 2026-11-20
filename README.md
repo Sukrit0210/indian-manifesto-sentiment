@@ -37,7 +37,7 @@ The launcher creates `.venv314/`, installs the pinned dependencies and PyTorch 2
 
 After setup, select `.venv314\Scripts\python.exe` in VS Code and run the numbered scripts in the order below. To regenerate the analysis and figures from existing scores and topics, use `py -3.14 run_all.py --start 4`.
 
-Stage 6 includes the BART comparison on a sample of passages. It downloads the BART checkpoint on first use. With scores and topic summaries already present, rerun stage 6 with `py -3.14 run_all.py --start 6`. Add `--no-third-model` to run the audit without BART.
+The launcher runs stages 1–7. With stage 6 outputs already present, run `py -3.14 run_all.py --start 7` for the expanded audit. Add `--no-third-model` to skip BART, which downloads its checkpoint on first use. Use `--start 6 --stop 6` to regenerate just the original perturbation and ordering tables.
 
 ## What Each Script Does
 
@@ -77,6 +77,10 @@ Stage 6 includes the BART comparison on a sample of passages. It downloads the B
 
 [06_audit_sensitivity.py](src/06_audit_sensitivity.py) checks whether the two methods reverse a pair of parties’ ordering by negative sentiment within the same topic and election. It also scores source passages after swapping BJP and Congress names or simulating OCR errors, and tests four constructed negation examples. [Party ordering summary](outputs/sensitivity/ordering_summary.csv) · [Text change results](outputs/sensitivity/perturbation_summary.csv) · [OCR sensitivity plot](outputs/sensitivity/ocr_sensitivity.png)
 
+### 7. Run the Expanded Audit
+
+[07_expanded_audit.py](src/07_expanded_audit.py) compares two BART prompts on the same 1,050 passages and measures score direction on 105 negation edits. It also reports perturbation results by manifesto, party, and election and measures how far the methods’ party sentiment gaps differ. [BART agreement](outputs/sensitivity/expanded/bart_agreement.csv) · [Negation coverage](outputs/sensitivity/expanded/negation_coverage.csv) · [Perturbations by group](outputs/sensitivity/expanded/perturbations_by_group.csv) · [Gap sizes](outputs/sensitivity/expanded/ordering_gap_sizes.csv)
+
 ## Dataset
 
 The dataset contains **9,572 passages**. Each row is a paragraph or list item. Passage totals vary by manifesto, so the party-year figures show the actual counts alongside the percentages.
@@ -103,7 +107,7 @@ The methods agreed on **6,201 of 9,572 passages (64.8%)**. ManifestoBERTa made *
 
 With at least 10 weighted passages for each party, **145 of 415** comparisons (34.9%) reversed across the two methods. The BJP–Congress name swap changed RoBERTa’s label on **9 of 296** passages and changed zero lexicon labels. At a 5% corruption probability per eligible character, simulated OCR changed **17 of 340** RoBERTa labels and **16 of 340** lexicon labels. [Party orderings](outputs/sensitivity/ordering_summary.csv) · [Perturbation counts](outputs/sensitivity/perturbation_summary.csv)
 
-On the common sample of **420 passages**, the lexicon and RoBERTa agreed on 63.6%. BART agreed with the lexicon on 25.2% and with RoBERTa on 35.5%. BART assigned neutral tone to 11 passages. These figures measure agreement among the three methods. [Sampled agreement](outputs/sensitivity/three_method_agreement.csv)
+On the same **1,050 passages**, rewriting BART’s neutral hypothesis changed its label on **867 passages**. Neutral labels rose from **20 to 887**, and BART’s agreement with RoBERTa rose from **34.2% to 73.7%**. RoBERTa’s sentiment score moved in the expected direction on all **105 negation pairs**, comprising three direct source edits and 102 constructed clauses added to manifesto passages. The lexicon’s score stayed the same on every pair. [BART labels](outputs/sensitivity/expanded/bart_label_counts.csv) · [Agreement](outputs/sensitivity/expanded/bart_agreement.csv) · [Negation results](outputs/sensitivity/expanded/negation_summary.csv)
 
 ## Limitations
 
