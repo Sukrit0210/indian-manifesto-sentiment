@@ -44,14 +44,19 @@ STEPS = [
     "03_assign_topics.py",
     "04_analyze.py",
     "05_plot.py",
+    "06_audit_sensitivity.py",
 ]
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--pdf-dir", type=Path, help="Directory containing the registered PDFs")
-    parser.add_argument("--start", type=int, default=1, choices=range(1, 6))
-    parser.add_argument("--stop", type=int, default=5, choices=range(1, 6))
+    parser.add_argument(
+        "--third-model", action=argparse.BooleanOptionalAction, default=True,
+        help="Run the sampled BART tone comparison in stage 6 (enabled by default)",
+    )
+    parser.add_argument("--start", type=int, default=1, choices=range(1, len(STEPS) + 1))
+    parser.add_argument("--stop", type=int, default=len(STEPS), choices=range(1, len(STEPS) + 1))
     args = parser.parse_args()
     if args.start > args.stop:
         parser.error("--start must be less than or equal to --stop")
@@ -61,6 +66,8 @@ def main():
         command = [python, str(ROOT / "src" / script)]
         if number == 1 and args.pdf_dir:
             command += ["--pdf-dir", str(args.pdf_dir.resolve())]
+        if number == 6 and args.third_model:
+            command.append("--third-model")
         print(f"Running {script}", flush=True)
         subprocess.run(command, cwd=ROOT, check=True)
 

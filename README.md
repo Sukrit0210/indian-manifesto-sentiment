@@ -7,6 +7,7 @@ This project extends my 2024 manifesto text-mining study to 21 English Lok Sabha
 1. How often do the original lexicon and RoBERTa assign the same sentiment to a passage?
 2. How do their sentiment estimates vary by party, election, and policy topic?
 3. Where do the two methods disagree, and what kinds of language appear in those passages?
+4. Does the choice of sentiment method change how parties rank within the same issue and election? How sensitive are the labels to small text changes?
 
 ## Folder Structure
 
@@ -15,6 +16,7 @@ data/raw/          Original English manifesto PDFs kept locally
 data/processed/    Clean passage dataset and source counts
 outputs/           Sentiment scores, topic summaries, and disagreement tables
 outputs/figures/   Plots in PNG and SVG
+outputs/sensitivity/ Party orderings, text perturbation results, and an OCR sensitivity plot
 reference/         Saved results from an earlier run
 src/               Numbered Python scripts
 REPORT.md          Methods, results, and conclusions
@@ -34,6 +36,8 @@ py -3.14 run_all.py
 The launcher creates `.venv314/`, installs the pinned dependencies and PyTorch 2.10.0 with CUDA 12.6, and checks that the GPU is available. The first run needs internet access for the packages and pinned model files. For PDFs stored elsewhere, use `py -3.14 run_all.py --pdf-dir "PATH_TO_PDFS"`.
 
 After setup, select `.venv314\Scripts\python.exe` in VS Code and run the numbered scripts in the order below. To regenerate the analysis and figures from existing scores and topics, use `py -3.14 run_all.py --start 4`.
+
+Stage 6 includes the BART comparison on a sample of passages. It downloads the BART checkpoint on first use. With scores and topic summaries already present, rerun stage 6 with `py -3.14 run_all.py --start 6`. Add `--no-third-model` to run the audit without BART.
 
 ## What Each Script Does
 
@@ -69,6 +73,10 @@ After setup, select `.venv314\Scripts\python.exe` in VS Code and run the numbere
 - [Negative sentiment by policy topic](outputs/figures/03_sentiment_by_topic.png)
 - [Sentiment within agriculture by party and election](outputs/figures/04_topic_sentiment_703.png)
 
+### 6. Check Sentiment Sensitivity
+
+[06_audit_sensitivity.py](src/06_audit_sensitivity.py) checks whether the two methods reverse a pair of parties’ ordering by negative sentiment within the same topic and election. It also scores source passages after swapping BJP and Congress names or simulating OCR errors, and tests four constructed negation examples. [Party ordering summary](outputs/sensitivity/ordering_summary.csv) · [Text change results](outputs/sensitivity/perturbation_summary.csv) · [OCR sensitivity plot](outputs/sensitivity/ocr_sensitivity.png)
+
 ## Dataset
 
 The dataset contains **9,572 passages**. Each row is a paragraph or list item. Passage totals vary by manifesto, so the party-year figures show the actual counts alongside the percentages.
@@ -93,6 +101,10 @@ The [reference folder](reference/) holds an earlier copy of the master dataset, 
 
 The methods agreed on **6,201 of 9,572 passages (64.8%)**. ManifestoBERTa made **15,376** short-unit topic assignments across **9,493** passages. The disagreement audit found agreement was lower among passages containing the tracked negation cue than in the corpus overall. [Agreement table](outputs/sentiment_confusion.csv) · [Audit table](outputs/disagreement_by_cue.csv)
 
+With at least 10 weighted passages for each party, **145 of 415** comparisons (34.9%) reversed across the two methods. The BJP–Congress name swap changed RoBERTa’s label on **9 of 296** passages and changed zero lexicon labels. At a 5% corruption probability per eligible character, simulated OCR changed **17 of 340** RoBERTa labels and **16 of 340** lexicon labels. [Party orderings](outputs/sensitivity/ordering_summary.csv) · [Perturbation counts](outputs/sensitivity/perturbation_summary.csv)
+
+On the common sample of **420 passages**, the lexicon and RoBERTa agreed on 63.6%. BART agreed with the lexicon on 25.2% and with RoBERTa on 35.5%. BART assigned neutral tone to 11 passages. These figures measure agreement among the three methods. [Sampled agreement](outputs/sensitivity/three_method_agreement.csv)
+
 ## Limitations
 
 - RoBERTa was trained on social media. Its performance on English Indian manifestos needs independent sentiment annotation.
@@ -101,7 +113,7 @@ The methods agreed on **6,201 of 9,572 passages (64.8%)**. ManifestoBERTa made *
 
 ## Conclusion
 
-Both methods mostly assigned neutral sentiment, but RoBERTa assigned negative sentiment more often. Comparing the methods within the same policy category and inspecting source-linked disagreements gives a clearer picture of how method choice affects the results. [Full analysis](REPORT.md)
+Both methods mostly assigned neutral sentiment. RoBERTa assigned negative sentiment more often, and the choice of method reversed about a third of party comparisons within the better-covered topics. These findings describe how the two methods measure tone in this corpus. Independent labels would be needed to judge their accuracy. [Full analysis](REPORT.md)
 
 ## References
 
