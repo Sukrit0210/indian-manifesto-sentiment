@@ -1,71 +1,110 @@
-
 # Sentiment in Indian Election Manifestos
 
-This project compares the original word-count lexicon and pretrained RoBERTa on 9,572 passages from 21 English Lok Sabha manifestos. ManifestoBERTa adds policy categories so the sentiment comparison can be made within the same issue across parties and elections. The corpus covers 2009, 2014, 2019 and 2024. [Original pilot](https://github.com/Sukrit0210/indian-manifesto-text-mining) · [Report](REPORT.md) · [Source inventory](data/sources.csv)
+This project extends my 2024 manifesto text-mining study to 21 English Lok Sabha manifestos from six parties. It compares the original word-count sentiment method with RoBERTa and uses ManifestoBERTa to study tone within policy topics. [Original project](https://github.com/Sukrit0210/indian-manifesto-text-mining) · [Project report](REPORT.md)
 
-## Changes from the original pilot
+## Research Questions
 
-| Area | What changed |
-|---|---|
-| Corpus | Expanded the balanced 832-passage sample of four parties in 2024 to 9,572 retained passages from six parties across four elections. Passage counts now reflect the included editions. |
-| Source tracking | Added PDF checksums, page numbers, source URLs, English OCR where needed, and a stable `passage_id` for each extracted passage. |
-| Sentiment | Kept the original word lists, score, and thresholds as the baseline. Added pretrained PyTorch RoBERTa and stored both methods’ labels for every passage. |
-| Policy categories | The pilot explored topics with LDA and NMF. This study uses ManifestoBERTa’s 56 policy categories to compare the same issue across parties and elections. Short-unit topic assignments roll up to passage weights. |
-| `src/04_analyze.py` | Added the disagreement audit. It writes `disagreement_by_cue.csv`, `sentiment_disagreements.csv`, and `disagreement_cue_examples.csv` for negation, criticism, and passages with commitment and problem language. |
-| `src/05_plot.py` | Added the side-by-side agriculture chart with all three sentiment labels for each party and election. It saves `04_topic_sentiment_703` in PNG and SVG. |
-| Local setup | Updated the Windows launcher to prepare a project-local Python 3.14 environment and install the CUDA-enabled PyTorch build before running the stages. The current GPU run reproduced the reference corpus and sentiment labels. |
+1. How often do the original lexicon and RoBERTa assign the same sentiment to a passage?
+2. How do their sentiment estimates vary by party, election, and policy topic?
+3. Where do the two methods disagree, and what kinds of language appear in those passages?
 
-## Run on Windows
+## Folder Structure
 
-Extract the source PDFs directly into `data/raw/`. Use 64-bit Python 3.14. For the verified GPU run, the launcher creates `.venv314/`, installs PyTorch 2.10.0 with CUDA 12.6, installs the pinned dependencies, and tests CUDA. Open the project folder in VS Code and run `run_all.py`, or run the following from PowerShell in the project folder.
+```text
+data/raw/          Original English manifesto PDFs kept locally
+data/processed/    Clean passage dataset and source counts
+outputs/           Sentiment scores, topic summaries, and disagreement tables
+outputs/figures/   Plots in PNG and SVG
+reference/         Saved results from an earlier run
+src/               Numbered Python scripts
+REPORT.md          Methods, results, and conclusions
+requirements.txt   Python dependencies
+```
+
+Place the source PDFs in `data/raw/` under the filenames listed in the source inventory. The edition notes document source gaps and extraction choices. [Source inventory](data/sources.csv) · [Edition notes](data/edition_notes.md)
+
+## Scripts
+
+Install 64-bit Python 3.14 and open PowerShell in the project folder. Run the full project with:
 
 ```powershell
 py -3.14 run_all.py
 ```
 
-The first run needs internet access for the dependencies and pinned model files. It stores the weights in `.cache/models/` and verifies the PDF and checkpoint files against their recorded checksums. If your PDF files are somewhere else, run `py -3.14 run_all.py --pdf-dir "PATH_TO_PDFS"`. [Edition notes](data/edition_notes.md) · [Model revisions and hashes](data/models.json)
+The launcher creates `.venv314/`, installs the pinned dependencies and PyTorch 2.10.0 with CUDA 12.6, and checks that the GPU is available. The first run needs internet access for the packages and pinned model files. For PDFs stored elsewhere, use `py -3.14 run_all.py --pdf-dir "PATH_TO_PDFS"`.
 
-| Stage | Script | Result |
-|---|---|---|
-| 01 | [Build the dataset](src/01_build_dataset.py) | Master passages and source counts in `data/processed/`. |
-| 02 | [Score sentiment](src/02_score_sentiment.py) | Original lexicon scores and RoBERTa labels and probabilities for each passage. |
-| 03 | [Assign policy topics](src/03_assign_topics.py) | ManifestoBERTa topic weights within each passage. |
-| 04 | [Analyze](src/04_analyze.py) | Sentiment summaries, agreement counts, topic coverage, and disagreement examples. |
-| 05 | [Plot](src/05_plot.py) | Four figures in PNG and SVG, including the agriculture breakdown. |
+After setup, select `.venv314\Scripts\python.exe` in VS Code and run the numbered scripts in the order below. To regenerate the analysis and figures from existing scores and topics, use `py -3.14 run_all.py --start 4`.
 
-To regenerate the analysis and plots after stages 01–03, run:
+## What Each Script Does
 
-```powershell
-py -3.14 run_all.py --start 4
-```
+### 1. Build the Dataset
 
-To run an individual script in VS Code, select `.venv314\Scripts\python.exe` as the interpreter after setup.
+[01_build_dataset.py](src/01_build_dataset.py) extracts and cleans text from the PDFs, using English OCR where needed. It saves paragraphs and list items with their original page numbers and source links. [Master passages](data/processed/master_passages.csv) · [Source counts](data/processed/source_counts.csv)
 
-## Find the results
+### 2. Score Sentiment
 
-| Files | What they contain |
+[02_score_sentiment.py](src/02_score_sentiment.py) applies the original positive and negative word lists and runs pretrained RoBERTa in PyTorch. Each method assigns a positive, neutral, or negative label to the same passage. [Passage scores](outputs/scores.csv)
+
+### 3. Assign Policy Topics
+
+[03_assign_topics.py](src/03_assign_topics.py) assigns one of ManifestoBERTa’s 56 categories to each short text unit. It combines these assignments into topic weights for each passage. [Passage topics](outputs/passage_topics.csv) · [Model versions](data/models.json)
+
+### 4. Analyze the Results
+
+[04_analyze.py](src/04_analyze.py) compares the two sentiment methods and summarizes sentiment by party, election, and policy topic. The added disagreement audit flags negation, criticism, and passages that combine commitment and problem language. The examples retain their source links.
+
+| Output | Contents |
 |---|---|
-| [Master passages](data/processed/master_passages.csv) · [Source counts](data/processed/source_counts.csv) | The rebuilt corpus and counts by source PDF. The master table also feeds the separate pledge study. |
-| [Scores](outputs/scores.csv) · [Passage topics](outputs/passage_topics.csv) | Both sentiment decisions for each passage, plus ManifestoBERTa’s policy categories and fractional topic weights. Join them by `passage_id`. |
-| [Party and year](outputs/by_party_year.csv) · [Party, year and topic](outputs/by_party_year_topic.csv) · [Topic totals](outputs/by_topic.csv) · [Topic coverage](outputs/topic_coverage.csv) | Counts, agreement, and sentiment shares. A passage can contribute fractional weight to multiple topics. |
-| [Agreement counts](outputs/sentiment_confusion.csv) · [Comparison examples](outputs/comparison_examples.csv) | A three-by-three table of the two methods’ labels and examples from the label combinations. |
-| [Disagreement rates by cue](outputs/disagreement_by_cue.csv) · [All disagreements](outputs/sentiment_disagreements.csv) · [Cue examples](outputs/disagreement_cue_examples.csv) | A source-linked audit for markers of negation, criticism, and passages containing both commitment and problem language. |
+| [Party and year](outputs/by_party_year.csv) · [Party, year and topic](outputs/by_party_year_topic.csv) · [Topic totals](outputs/by_topic.csv) | Sentiment shares, counts, and agreement |
+| [Topic coverage](outputs/topic_coverage.csv) | Passages that received topic assignments |
+| [Agreement counts](outputs/sentiment_confusion.csv) · [Comparison examples](outputs/comparison_examples.csv) | Counts and examples for combinations of the two labels |
+| [Disagreements by cue](outputs/disagreement_by_cue.csv) · [All disagreements](outputs/sentiment_disagreements.csv) · [Examples by cue](outputs/disagreement_cue_examples.csv) | Audit counts and source-linked text |
 
-The four figures show [label agreement](outputs/figures/01_sentiment_agreement.png), [party-year trends](outputs/figures/02_party_year_trends.png), [negative sentiment in the eight largest policy categories](outputs/figures/03_sentiment_by_topic.png), and [all three labels within agriculture by party and election](outputs/figures/04_topic_sentiment_703.png).
+### 5. Make the Plots
 
-## What the reference folder is for
+[05_plot.py](src/05_plot.py) saves four figures. The added agriculture plot shows all three sentiment shares for both methods, grouped by party and election.
 
-`reference/` is a saved snapshot of an earlier run. It is useful for checking a rebuild or showing results before running the models. The pipeline reads its inputs from `data/` and writes the current results to `data/processed/` and `outputs/`.
+- [Sentiment agreement](outputs/figures/01_sentiment_agreement.png)
+- [Party and election trends](outputs/figures/02_party_year_trends.png)
+- [Negative sentiment by policy topic](outputs/figures/03_sentiment_by_topic.png)
+- [Sentiment within agriculture by party and election](outputs/figures/04_topic_sentiment_703.png)
 
-| Reference file | Why keep it |
+## Dataset
+
+The dataset contains **9,572 passages**. Each row is a paragraph or list item. Passage totals vary by manifesto, so the party-year figures show the actual counts alongside the percentages.
+
+| Party | Elections included |
 |---|---|
-| `master_passages.csv` | Check whether PDF extraction reproduced the same text and passage IDs. |
-| `scores.csv` | Compare individual lexicon and RoBERTa labels against the saved run. |
-| `by_party_year_and_legacy_policy.csv` | Look up the earlier party-year summary and keyword-based policy categories. |
-| `by_policy_topic.csv` | Compare the earlier ManifestoBERTa topic summaries with your new tables. |
-| `disagreement_examples.csv` | Inspect examples retained in the earlier run. The current audit is in `outputs/`. |
-| `sentiment_confusion.csv` and `figures/01_sentiment_agreement.png` | Check the earlier label counts and preview the earlier agreement heatmap. |
+| BJP, Congress, CPI(M) | 2009, 2014, 2019, 2024 |
+| AIADMK | 2009, 2014, 2019 |
+| DMK, TMC | 2014, 2019, 2024 |
 
-## Main finding
+Important columns include `passage_id`, `document_id`, `party`, `year`, `page`, `text`, `word_count`, `extraction`, and `source_url`. Use `passage_id` to join the master dataset with the sentiment scores and topic assignments.
 
-In the completed Windows GPU run, the lexicon and RoBERTa assigned the same label to **6,201 of 9,572 passages (64.8%)**. RoBERTa assigned negative sentiment to 9.5% of passages, compared with 4.3% for the lexicon. The rebuilt master CSV matched the saved reference byte for byte, and both sentiment labels matched for every passage ID. Agreement measures consistency between the methods. An independent annotation study would be needed to estimate accuracy on these manifestos. [Results and limitations](REPORT.md)
+The [reference folder](reference/) holds an earlier copy of the master dataset, the scores, summary tables, examples, and a plot. It is useful for checking a rerun. The completed GPU run reproduced the saved master CSV byte for byte and matched both saved sentiment labels for every passage.
+
+## Main Results
+
+| Label | Original lexicon | RoBERTa |
+|---|---:|---:|
+| Positive | 2,185 (22.8%) | 2,293 (24.0%) |
+| Neutral | 6,979 (72.9%) | 6,366 (66.5%) |
+| Negative | 408 (4.3%) | 913 (9.5%) |
+
+The methods agreed on **6,201 of 9,572 passages (64.8%)**. ManifestoBERTa made **15,376** short-unit topic assignments across **9,493** passages. The disagreement audit found agreement was lower among passages containing the tracked negation cue than in the corpus overall. [Agreement table](outputs/sentiment_confusion.csv) · [Audit table](outputs/disagreement_by_cue.csv)
+
+## Limitations
+
+- RoBERTa was trained on social media. Its performance on English Indian manifestos needs independent sentiment annotation.
+- OCR and automatic policy coding can introduce errors. Some party-years lack a verified English edition.
+- Cue-based groups can overlap. A cue match provides an example to inspect, and some groups contain few passages.
+
+## Conclusion
+
+Both methods mostly assigned neutral sentiment, but RoBERTa assigned negative sentiment more often. Comparing the methods within the same policy category and inspecting source-linked disagreements gives a clearer picture of how method choice affects the results. [Full analysis](REPORT.md)
+
+## References
+
+- [Pilot project and lexicon baseline](https://github.com/Sukrit0210/indian-manifesto-text-mining)
+- [CardiffNLP Twitter-RoBERTa sentiment model](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest)
+- [ManifestoBERTa policy category model](https://huggingface.co/manifesto-project/manifestoberta-xlm-roberta-56policy-topics-sentence-2023-1-1)
