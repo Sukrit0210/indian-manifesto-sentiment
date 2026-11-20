@@ -1,0 +1,21 @@
+{
+  "roberta": {
+    "repository": "cardiffnlp/twitter-roberta-base-sentiment-latest",
+    "revision": "3216a57f2a0d9c45a2e6c20157c20c49fb4bf9c7",
+    "files": {
+      "config.json": "d2fba19997da698157196ba16f5fcb30a97a7551cef6845a0f3d743ee19c6129",
+      "merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "vocab.json": "06b4d46c8e752d410213d9548eb27a54db70fda0319b6271fb8d59dead5e1cab",
+      "pytorch_model.bin": "4d24a3e32a88ed1c4e5b789fc6644e2e767500554e954b27dccf52a8e762cbae"
+    }
+  },
+  "topics": {
+    "repository": "manifesto-project/manifestoberta-xlm-roberta-56policy-topics-sentence-2023-1-1",
+    "revision": "9a0fbb32b8e838a0f11d4649e675683a09833b26",
+    "files": {
+      "config.json": "1e6a6fdc2a1e654a4a428e3359578df884dbaa7d8f07355188343ce7f291ce43",
+      "tokenizer.json": "62c24cdc13d4c9952d63718d6c9fa4c287974249e16b7ade6d5a85e7bbb75626",
+      "model.safetensors": "73a15c5a5aa0a92e11fdc1bf5a685e8be8e412c0d10a76edc39523849ebcd30a"
+    }
+  }
+}

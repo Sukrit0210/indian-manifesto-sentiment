@@ -1,0 +1,92 @@
+{
+  "economy": [
+    "economy",
+    "economic",
+    "growth",
+    "tax",
+    "investment",
+    "business",
+    "market",
+    "inflation"
+  ],
+  "employment": [
+    "job",
+    "jobs",
+    "employment",
+    "unemployment",
+    "skill",
+    "livelihood",
+    "apprenticeship"
+  ],
+  "health": [
+    "health",
+    "hospital",
+    "medicine",
+    "medical",
+    "doctor",
+    "nutrition",
+    "healthcare"
+  ],
+  "education": [
+    "education",
+    "school",
+    "teacher",
+    "student",
+    "university",
+    "scholarship"
+  ],
+  "agriculture": [
+    "farmer",
+    "farmers",
+    "agriculture",
+    "crop",
+    "msp",
+    "irrigation",
+    "rural"
+  ],
+  "welfare": [
+    "welfare",
+    "poor",
+    "poverty",
+    "ration",
+    "housing",
+    "benefit",
+    "social security"
+  ],
+  "governance": [
+    "governance",
+    "constitution",
+    "democracy",
+    "rights",
+    "law",
+    "corruption"
+  ],
+  "infrastructure": [
+    "infrastructure",
+    "road",
+    "railway",
+    "highway",
+    "airport",
+    "transport",
+    "urban"
+  ],
+  "climate": [
+    "climate",
+    "environment",
+    "pollution",
+    "forest",
+    "water",
+    "renewable",
+    "sustainable"
+  ],
+  "social_justice": [
+    "caste",
+    "dalit",
+    "adivasi",
+    "minority",
+    "reservation",
+    "sc",
+    "st",
+    "obc"
+  ]
+}

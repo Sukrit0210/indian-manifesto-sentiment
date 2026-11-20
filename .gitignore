@@ -1,0 +1,8 @@
+.venv/
+.venv314/
+.cache/
+__pycache__/
+*.py[cod]
+data/raw/
+*.safetensors
+*.bin
